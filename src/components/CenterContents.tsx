@@ -1,3 +1,14 @@
+import { AboutUs } from "./AboutUs";
+import { Opinion } from "./Opinion";
+import { StatsComponent } from "./stats";
+
 export const CenterContents = () => {
-  return <div className=" text-white">CenterContents</div>;
+  return (
+    <section className=" text-white ">
+      <StatsComponent />
+      <AboutUs />
+      
+      <Opinion />
+    </section>
+  );
 };

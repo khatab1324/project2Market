@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { navLinks } from "../constants";
-import bauLogo from "./bauLogo.png";
+import bauLogo from "./../assets/bauLogo.png";
 import { HiMenuAlt2 } from "react-icons/hi";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 
@@ -9,7 +9,7 @@ export const Navbar = () => {
   const [isMenueOpen, setisMenueOpen] = useState(false);
   return (
     <nav className="w-full py-1 flex justify-center items-center navbar">
-      <img src={bauLogo} alt="hoobank" className="w-[124px] h-[100px]" />
+      <img src={bauLogo} alt="hoobank" className="w-[114px] h-[90px]" />
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
@@ -28,7 +28,7 @@ export const Navbar = () => {
           className="hover:cursor-pointer"
           onClick={() => setisMenueOpen(!isMenueOpen)}
         >
-          {isMenueOpen ? (
+          {!isMenueOpen ? (
             <HiMenuAlt2
               color="white"
               size={25}
@@ -40,7 +40,7 @@ export const Navbar = () => {
         </span>
         <div
           className={`${
-            isMenueOpen ? "hidden" : "flex"
+            !isMenueOpen ? "hidden" : "flex"
           } p-6 bg-black-gradient absolute top-16 right-1 mx-4 my-3 min-w-[150px] rounded-xl sidebar`}
         >
           <ul className=" flex justify-end items-start flex-1 flex-col">

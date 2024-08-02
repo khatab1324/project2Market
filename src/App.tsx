@@ -12,9 +12,6 @@ function App() {
           <Navbar />
         </div>
       </div>
-      <div className="bg-white flex justify-center items-start">
-        <div className="xl:max-w-[1280px] w-full"> soo</div>
-      </div>
       {/* first section */}
       <div className="bg-primary flex justify-center items-start">
         <div className="xl:max-w-[1280px] w-full">
