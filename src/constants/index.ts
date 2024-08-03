@@ -54,23 +54,56 @@ export const aboutUsContents = [
 export const whatTheDoctorSaid = [
   {
     id: "1",
-    name: "Dr.adnan alrabie",
+    name: "Dr.1",
     quote:
       "we are the best compatition in jordan and we are aim to univarsity student",
     postion: "Vice Dean",
   },
   {
     id: "2",
-    name: "Dr.adnan alrabie",
+    name: "Dr.2",
     quote:
       "we are the best compatition in jordan and we are aim to univarsity student",
     postion: "Vice Dean",
   },
   {
     id: "3",
-    name: "Dr.adnan alrabie",
+    name: "Dr.3",
     quote:
       "we are the best compatition in jordan and we are aim to univarsity student",
     postion: "Vice Dean",
   },
+  {
+    id: "4",
+    name: "Dr.4",
+    quote:
+      "we are the best compatition in jordan and we are aim to univarsity student",
+    postion: "Vice Dean",
+  },
+  {
+    id: "5",
+    name: "Dr.5",
+    quote:
+      "we are the best compatition in jordan and we are aim to univarsity student",
+    postion: "Vice Dean",
+  },
+  {
+    id: "6",
+    name: "Dr.6",
+    quote:
+      "we are the best compatition in jordan and we are aim to univarsity student",
+    postion: "Vice Dean",
+  },
+  {
+    id: "7",
+    name: "Dr.7",
+    quote:
+      "we are the best compatition in jordan and we are aim to univarsity student",
+    postion: "Vice Dean",
+  },
+];
+export const majors = [
+  { id: "1", title: "AI / IOT" },
+  { id: "2", title: "IT" },
+  { id: "3", title: "engineer" },
 ];

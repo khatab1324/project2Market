@@ -1,104 +1,127 @@
 import React from "react";
 import {
   FaFacebookF,
-  FaTwitter,
   FaInstagram,
   FaLinkedinIn,
+  FaPhone,
+  FaEnvelope,
 } from "react-icons/fa";
 import { AiFillGithub } from "react-icons/ai";
 
+import bauLogo from "./../assets/bauLogo.png";
+
 export const Footer = () => {
   return (
-    <div className="">
-      <hr />
-      <div className="max-w-screen-lg px-4 sm:px-6 text-gray-800 sm:grid md:grid-cols-4 sm:grid-cols-2 mx-auto">
-        <div className="p-5">
-          <h3 className="font-bold text-xl text-indigo-600">Company Name</h3>
-        </div>
-        <div className="p-5">
-          <div className="text-sm uppercase text-indigo-600 font-bold">
-            Resources
+    <footer className="bg-gray-900 text-gray-300">
+      <div className="max-w-screen-lg mx-auto px-6 py-8">
+        <div className="flex flex-col md:flex-row items-center justify-between mb-6">
+          <div className="flex items-center space-x-4">
+            <a href="https://www.bau.edu.jo/bauar/Units/ICEC/Home.aspx">
+              <img
+                src={bauLogo}
+                alt="Project 2 Market Logo"
+                className="h-12 w-auto"
+              />
+            </a>
+            <h3 className="text-2xl font-bold text-indigo-500">
+              Project 2 Market
+            </h3>
           </div>
-        </div>
-        <div className="p-5 flex justify-center flex-col">
-          <div className="text-sm uppercase text-indigo-600 font-bold text-center">
-            Developers
-          </div>
-          <ul className="flex">
-            <li>
-              <h3 className="text-white">Khattab Fayyed</h3>
-              <div className="flex m-5 ">
-                <a href="/#" className="w-6 mr-4">
-                  <FaLinkedinIn
-                    className="fill-current cursor-pointer text-gray-500 hover:text-indigo-600"
-                    size={25}
-                  />
-                </a>
-                <a href="/#" className="w-6 ml-4">
-                  <AiFillGithub
-                    className="fill-current cursor-pointer text-gray-500 hover:text-indigo-600"
-                    size={25}
-                  />
-                </a>
-              </div>
-            </li>
-            <li>
-              <h3 className="text-white">Omar Alsarawi</h3>
-              <div className="flex p-5">
-                <a href="/#" className="w-6 mx-1 ">
-                  <FaLinkedinIn
-                    className="fill-current cursor-pointer text-gray-500 hover:text-indigo-600"
-                    size={25}
-                  />
-                </a>
-                <a href="/#" className="w-6 mx-1">
-                  <AiFillGithub
-                    className="fill-current cursor-pointer text-gray-500 hover:text-indigo-600"
-                    size={25}
-                  />
-                </a>
-              </div>
-            </li>
-          </ul>
-        </div>
-        <div className="p-5">
-          <div className="text-sm uppercase text-indigo-600 font-bold">
-            Contact us
-          </div>
-          <a className="my-3 block" href="tel:+053491111">
-            05/3491111 Sub: 3290{" "}
-            <span className="text-teal-600 text-xs p-1"></span>
-          </a>
-          <a className="my-3 block" href="mailto:icec@bau.edu.jo">
-            icec@bau.edu.jo<span className="text-teal-200 text-xs p-1"></span>
-          </a>
-        </div>
-      </div>
 
-      <div className=" pt-2">
-        <div className="flex pb-5 px-3 m-auto pt-5 border-t text-gray-800 text-sm flex-col max-w-screen-lg items-center">
-          <div className="md:flex-auto md:flex-row-reverse mt-2 flex-row flex">
-            <a href="/#" className="w-6 mx-1">
-              <FaFacebookF className="fill-current cursor-pointer text-gray-500 hover:text-indigo-600" />
-            </a>
-            <a href="/#" className="w-6 mx-1">
-              <FaTwitter className="fill-current cursor-pointer text-gray-500 hover:text-indigo-600" />
-            </a>
-            <a href="/#" className="w-6 mx-1">
-              <FaInstagram className="fill-current cursor-pointer text-gray-500 hover:text-indigo-600" />
-            </a>
-            <a href="/#" className="w-6 mx-1">
-              <FaLinkedinIn className="fill-current cursor-pointer text-gray-500 hover:text-indigo-600" />
-            </a>
-            <a href="/#" className="w-6 mx-1">
-              <AiFillGithub className="fill-current cursor-pointer text-gray-500 hover:text-indigo-600" />
-            </a>
-          </div>
-          <div className="text-center mt-5 text-gray-600 text-xs">
-            &copy; 2024 Your Company. All rights reserved.
+          {/* Developers Section */}
+          <div className="mt-4 md:mt-0">
+            <h4 className="text-lg uppercase font-semibold text-indigo-500 mb-4">
+              Developers
+            </h4>
+            <ul className="space-y-4">
+              <li>
+                <div className="flex items-center space-x-6">
+                  <h5 className="text-white text-lg">Khattab Fayyed</h5>
+                  <div className="flex space-x-4">
+                    <a
+                      href="https://www.linkedin.com/in/khattab-fayyad-760354261?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                      aria-label="LinkedIn Khattab Fayyed"
+                      className="text-gray-400 hover:text-indigo-500 transition-colors"
+                    >
+                      <FaLinkedinIn size={22} />
+                    </a>
+                    <a
+                      href="https://github.com/khatab1324"
+                      aria-label="GitHub Khattab Fayyed"
+                      className="text-gray-400 hover:text-indigo-500 transition-colors"
+                    >
+                      <AiFillGithub size={22} />
+                    </a>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div className="flex items-center space-x-6">
+                  <h5 className="text-white text-lg">Omar Alsarawi</h5>
+                  <div className="flex space-x-4">
+                    <a
+                      href="https://www.linkedin.com/in/omar-sarawi-570440273/"
+                      aria-label="LinkedIn Omar Alsarawi"
+                      className="text-gray-400 hover:text-indigo-500 transition-colors"
+                    >
+                      <FaLinkedinIn size={22} />
+                    </a>
+                    <a
+                      href="https://github.com/omarSarawi"
+                      aria-label="GitHub Omar Alsarawi"
+                      className="text-gray-400 hover:text-indigo-500 transition-colors"
+                    >
+                      <AiFillGithub size={22} />
+                    </a>
+                  </div>
+                </div>
+              </li>
+            </ul>
           </div>
         </div>
+
+        <div className="flex flex-col items-center space-y-4 py-6 border-t border-gray-700">
+          <div className="flex space-x-6">
+            <a
+              href="tel:+053491111"
+              className="flex items-center text-gray-400 hover:text-indigo-500 transition-colors"
+            >
+              <FaPhone size={18} className="mr-2" />
+            </a>
+            <a
+              href="mailto:icec@bau.edu.jo"
+              className="flex items-center text-gray-400 hover:text-indigo-500 transition-colors"
+            >
+              <FaEnvelope size={18} className="mr-2" />
+            </a>
+            <a
+              href="https://www.facebook.com/icecBAU?mibextid=ZbWKwL"
+              aria-label="Facebook"
+              className="text-gray-400 hover:text-indigo-500 transition-colors"
+            >
+              <FaFacebookF size={22} />
+            </a>
+            <a
+              href="https://www.instagram.com/youth_innovation_committee?igsh=MWU5b3FvdHlkczZ5MA=="
+              aria-label="Instagram"
+              className="text-gray-400 hover:text-indigo-500 transition-colors"
+            >
+              <FaInstagram size={22} />
+            </a>
+            <a
+              href="https://www.linkedin.com/company/bau-youth-innovation-committee/"
+              aria-label="LinkedIn"
+              className="text-gray-400 hover:text-indigo-500 transition-colors"
+            >
+              <FaLinkedinIn size={22} />
+            </a>
+          </div>
+        </div>
+
+        <div className="text-center text-gray-500 text-xs py-4">
+          &copy; 2024 Project 2 Market Season 2. All rights reserved.
+        </div>
       </div>
-    </div>
+    </footer>
   );
 };
