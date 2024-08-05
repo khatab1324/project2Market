@@ -22,6 +22,18 @@ module.exports = {
       lg: "1200px",
       xl: "1700px",
     },
+    keyframes: {
+      colorCycle: {
+        "0%, 100%": { color: "#004356" },
+        "25%": { color: "#00ffff" },
+        "50%": { color: "#ffffff" },
+        "75%": { color: "#00ffff" },
+      },
+    },
+    animation: {
+      colorCycle: "colorCycle 5s linear infinite", // Adjust the duration as needed
+    },
+    
   },
   plugins: [],
 };

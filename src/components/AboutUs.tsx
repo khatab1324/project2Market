@@ -26,7 +26,11 @@ export const AboutUs = () => {
       ))}
       {/* this for what people we are aiming for  */}
       <SectionIntro title="how people we are aiming for" content="" />
-      <Majors />
+      <div className="w-full flex justify-around ">
+        <Majors title="AI/IOT"/>
+        <Majors title="IT"/>
+        <Majors title="ENGINEERS"/>
+      </div>
     </div>
   );
 };
