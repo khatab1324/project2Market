@@ -24,7 +24,7 @@ export const navLinks = [
 export const statsOfTheCompetition = [
   { id: "1", title: "Participants", value: "+200" },
   { id: "2", title: "sponsors", value: "+50" },
-  { id: "3", title: "Financial prizes", value: "1000$" },
+  { id: "3", title: "prizes", value: "+1000$" },
 ];
 
 export const aboutUsContents = [

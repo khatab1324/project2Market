@@ -17,17 +17,17 @@ export const Majors = ({ title }: { title: string }) => {
     //     </div>
     //   ))}
     // </div>
-    <div className="container  mr-4 w-44">
-      <div className="flex flex-wrap gap-10 mb-10 ">
+    <div className="container  mr-4 xs:w-44  w-32">
+      <div className="flex  justify-center items-center gap-10 mb-10 ">
         <div
-          className=" bg-no-repeat bg-[length:100%_100%] w-full"
+          className=" bg-no-repeat bg-[length:100%_100%]  flex  justify-center items-center w-full"
           style={{
             backgroundImage: `url(${bg})`,
           }}
         >
-          <div className=" flex flex-col  p-[2.4rem] ">
+          <div className=" flex flex-wrap flex-row p-[2.4rem] ">
             <h1
-              className="text-2xl flex justify-center animate-colorCycle drop-shadow-2xl shadow-white "
+              className="xs:text-2xl text-xl flex justify-center animate-colorCycle drop-shadow-2xl shadow-white "
               style={{ textShadow: "0px 0px 40px rgba(0, 0, 255, 1)" }}
             >
               {title}
