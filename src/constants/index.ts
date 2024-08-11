@@ -1,4 +1,5 @@
 import doctorImage from "../assets/WhatsApp Image 2024-07-31 at 4.12.01 PM.jpeg";
+import winnersInProjectToMarket from "../assets/WhatsApp Image 2024-08-11 at 2.13.08 PM.jpeg";
 export const navLinks = [
   {
     id: "aboutus",
@@ -59,7 +60,7 @@ export const whatTheDoctorSaid = [
     quote:
       "we are the best compatition in jordan and we are aim to univarsity student",
     postion: "Vice Dean",
-    image: doctorImage,
+    image: winnersInProjectToMarket,
   },
   {
     id: "2",
@@ -67,7 +68,7 @@ export const whatTheDoctorSaid = [
     quote:
       "we are the best compatition in jordan and we are aim to univarsity student",
     postion: "Vice Dean",
-    image: doctorImage,
+    image: winnersInProjectToMarket,
   },
   {
     id: "3",
@@ -75,7 +76,7 @@ export const whatTheDoctorSaid = [
     quote:
       "we are the best compatition in jordan and we are aim to univarsity student",
     postion: "Vice Dean",
-    image: doctorImage,
+    image: winnersInProjectToMarket,
   },
   {
     id: "4",
@@ -83,7 +84,7 @@ export const whatTheDoctorSaid = [
     quote:
       "we are the best compatition in jordan and we are aim to univarsity student",
     postion: "Vice Dean",
-    image: doctorImage,
+    image: winnersInProjectToMarket,
   },
   {
     id: "5",
@@ -91,7 +92,7 @@ export const whatTheDoctorSaid = [
     quote:
       "we are the best compatition in jordan and we are aim to univarsity student",
     postion: "Vice Dean",
-    image: doctorImage,
+    image: winnersInProjectToMarket,
   },
   {
     id: "6",
@@ -99,7 +100,7 @@ export const whatTheDoctorSaid = [
     quote:
       "we are the best compatition in jordan and we are aim to univarsity student",
     postion: "Vice Dean",
-    image: doctorImage,
+    image: winnersInProjectToMarket,
   },
   {
     id: "7",
@@ -107,7 +108,7 @@ export const whatTheDoctorSaid = [
     quote:
       "we are the best compatition in jordan and we are aim to univarsity student",
     postion: "Vice Dean",
-    image: doctorImage,
+    image: winnersInProjectToMarket,
   },
 ];
 export const majors = [
@@ -125,7 +126,7 @@ export const winnersSessonOne = {
         "we are the best compatition in jordan and we are aim to univarsity student",
       particepentsNames: [],
       place: 1,
-      image: "",
+      image: winnersInProjectToMarket,
     },
     {
       id: "2",
@@ -134,7 +135,7 @@ export const winnersSessonOne = {
         "we are the best compatition in jordan and we are aim to univarsity student",
       particepentsNames: [],
       place: 2,
-      image: "",
+      image: winnersInProjectToMarket,
     },
     {
       id: "3",
@@ -143,7 +144,7 @@ export const winnersSessonOne = {
         "we are the best compatition in jordan and we are aim to univarsity student",
       particepentsNames: [],
       place: 3,
-      image: "",
+      image: winnersInProjectToMarket,
     },
   ],
   It: [
@@ -154,7 +155,7 @@ export const winnersSessonOne = {
         "we are the best compatition in jordan and we are aim to univarsity student",
       particepentsNames: [],
       place: 1,
-      image: "",
+      image: winnersInProjectToMarket,
     },
     {
       id: "2",
@@ -163,7 +164,7 @@ export const winnersSessonOne = {
         "we are the best compatition in jordan and we are aim to univarsity student",
       particepentsNames: [],
       place: 2,
-      image: "",
+      image: winnersInProjectToMarket,
     },
     {
       id: "3",
@@ -172,7 +173,7 @@ export const winnersSessonOne = {
         "we are the best compatition in jordan and we are aim to univarsity student",
       particepentsNames: [],
       place: 3,
-      image: "",
+      image: winnersInProjectToMarket,
     },
   ],
   engineers: [
@@ -183,7 +184,7 @@ export const winnersSessonOne = {
         "we are the best compatition in jordan and we are aim to univarsity student",
       particepentsNames: [],
       place: 1,
-      image: "",
+      image: winnersInProjectToMarket,
     },
     {
       id: "2",
@@ -192,7 +193,7 @@ export const winnersSessonOne = {
         "we are the best compatition in jordan and we are aim to univarsity student",
       particepentsNames: [],
       place: 2,
-      image: "",
+      image: winnersInProjectToMarket,
     },
     {
       id: "3",
@@ -201,7 +202,7 @@ export const winnersSessonOne = {
         "we are the best compatition in jordan and we are aim to univarsity student",
       particepentsNames: [],
       place: 3,
-      image: "",
+      image: winnersInProjectToMarket,
     },
   ],
 };

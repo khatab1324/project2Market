@@ -1,6 +1,7 @@
 import { AboutUs } from "./AboutUs";
 import { Opinion } from "./Opinion";
 import { Particepents } from "./Particepents";
+import { Sponsors } from "./Sponsors";
 import { StatsComponent } from "./stats";
 
 export const CenterContents = () => {
@@ -10,6 +11,7 @@ export const CenterContents = () => {
       <AboutUs />
       <Opinion />
       <Particepents />
+      <Sponsors />
     </section>
   );
 };

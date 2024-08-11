@@ -58,16 +58,16 @@ export const WinnersCards: React.FC = () => {
             <SwiperSlide key={winner.id} className="p-3">
               <div className="flex flex-col justify-between px-6 sm:px-10 py-8 sm:py-12 rounded-[20px] max-w-[370px] mx-auto my-5 feedback-card">
                 <FaQuoteLeft className="text-2xl sm:text-3xl text-white mb-4" />
-                <p className="font-poppins font-normal text-[16px] sm:text-[18px] leading-[1.6] text-white mb-6">
-                  {winner.projectDescription}
-                </p>
                 <div className="flex flex-row items-center">
                   <img
                     src={winner.image}
-                    className="w-[40px] h-[40px] sm:w-[48px] sm:h-[48px] rounded-full"
+                    className="w-full h-1/3 "
                     alt={winner.projectTitle}
                   />
                 </div>
+                <p className="font-poppins font-normal text-[16px] sm:text-[18px] leading-[1.6] text-white mb-6">
+                  {winner.projectTitle}
+                </p>
               </div>
             </SwiperSlide>
           ))}
