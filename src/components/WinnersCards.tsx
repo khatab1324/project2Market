@@ -5,15 +5,10 @@ import "swiper/swiper-bundle.css";
 import {
   FaArrowCircleLeft,
   FaArrowCircleRight,
-  FaQuoteLeft,
 } from "react-icons/fa";
 import { Navigation } from "swiper/modules";
 import clsx from "clsx";
 import { winnersSessonOne } from "../constants";
-import firstPlaceMedal from "../assets/medal.png";
-import secondPlaceMedal from "../assets/medalSecond.png";
-import theerdPlaceMedal from "../assets/medalTheerd.png";
-import bauLogo from "../assets/bauLogo.png";
 SwiperCore.use([Navigation]);
 
 export const WinnersCards: React.FC = () => {

@@ -1,4 +1,3 @@
-import doctorImage from "../assets/WhatsApp Image 2024-07-31 at 4.12.01 PM.jpeg";
 import winnersInProjectToMarket from "../assets/WhatsApp Image 2024-08-11 at 2.13.08 PM.jpeg";
 export const navLinks = [
   {
