@@ -2,14 +2,17 @@ import React, { useEffect, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Swiper as SwiperType } from "swiper";
 import "swiper/swiper-bundle.css";
-import { whatTheDoctorSaid, winnersSessonOne } from "../constants";
 import {
   FaArrowCircleLeft,
   FaArrowCircleRight,
   FaQuoteLeft,
 } from "react-icons/fa";
 import { Navigation } from "swiper/modules";
-import { SectionIntro } from "./SectionIntro";
+import clsx from "clsx";
+import { winnersSessonOne } from "../constants";
+import firstPlaceMedal from "../assets/medal.png";
+import secondPlaceMedal from "../assets/medalSecond.png";
+import theerdPlaceMedal from "../assets/medalTheerd.png";
 
 SwiperCore.use([Navigation]);
 
@@ -31,7 +34,7 @@ export const WinnersCards: React.FC = () => {
   return (
     <div className="relative px-4 sm:px-6 lg:px-8">
       <Swiper
-        loop={true}
+        // loop={true}
         slidesPerView={1}
         spaceBetween={20}
         navigation={{
@@ -56,8 +59,16 @@ export const WinnersCards: React.FC = () => {
         <div className="relative">
           {winnersSessonOne.AiIot.map((winner) => (
             <SwiperSlide key={winner.id} className="p-3">
-              <div className="flex flex-col justify-between px-6 sm:px-10 py-8 sm:py-12 rounded-[20px] max-w-[370px] mx-auto my-5 feedback-card">
+              <div
+                className={clsx(
+                  "flex flex-col justify-between px-6 sm:px-10 py-8 sm:py-12 rounded-[20px] max-w-[370px] mx-auto my-5 feedback-card",
+                  {
+                    "px-6 sm:px-10 py-8 sm:py-12": winner.place == 3,
+                  }
+                )}
+              >
                 <FaQuoteLeft className="text-2xl sm:text-3xl text-white mb-4" />
+
                 <div className="flex flex-row items-center">
                   <img
                     src={winner.image}
@@ -65,9 +76,41 @@ export const WinnersCards: React.FC = () => {
                     alt={winner.projectTitle}
                   />
                 </div>
-                <p className="font-poppins font-normal text-[16px] sm:text-[18px] leading-[1.6] text-white mb-6">
-                  {winner.projectTitle}
-                </p>
+                <div className="flex">
+                  {winner.place === 1 && (
+                    <img
+                      src={firstPlaceMedal}
+                      alt=""
+                      className="w-[40px] h-[40px] mt-4"
+                    />
+                  )}
+                  {winner.place === 2 && (
+                    <img
+                      src={secondPlaceMedal}
+                      alt=""
+                      className="w-[40px] h-[40px] mt-4"
+                    />
+                  )}
+                  {winner.place === 3 && (
+                    <img
+                      src={theerdPlaceMedal}
+                      alt=""
+                      className="w-[40px] h-[40px] mt-4"
+                    />
+                  )}
+                  <p
+                    className={clsx(
+                      "font-poppins font-semibold text-gradient text-[25px] sm:text-[32px] lg:text-[23px]  leading-[1.2] lg:leading-[76.8px] w-full  mt-4 lg:mt-0  ml-4 ",
+                      {
+                        "text-goldGradient": winner.place === 1,
+                        "text-slate-500": winner.place === 2,
+                        "text-amber-900": winner.place === 3,
+                      }
+                    )}
+                  >
+                    {winner.projectTitle}
+                  </p>
+                </div>
               </div>
             </SwiperSlide>
           ))}

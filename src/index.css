@@ -32,7 +32,19 @@
   background-clip: text;
   text-fill-color: transparent;
 }
-
+.text-goldGradient {
+  background: radial-gradient(
+    circle at 71.16% 25.69%,
+    #f6e59d 0%,
+    #fbf9c6 25%,
+    #f2fabd 25%,
+    #efe35a 75%,
+    #ffea00 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
 .bg-blue-gradient {
   background: linear-gradient(
     157.81deg,
@@ -137,4 +149,3 @@
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
 }
-

@@ -130,7 +130,7 @@ export const winnersSessonOne = {
     },
     {
       id: "2",
-      projectTitle: "smart home",
+      projectTitle: "tomore bladna",
       projectDescription:
         "we are the best compatition in jordan and we are aim to univarsity student",
       particepentsNames: [],
@@ -139,7 +139,7 @@ export const winnersSessonOne = {
     },
     {
       id: "3",
-      projectTitle: "smart home",
+      projectTitle: "startcafy",
       projectDescription:
         "we are the best compatition in jordan and we are aim to univarsity student",
       particepentsNames: [],
