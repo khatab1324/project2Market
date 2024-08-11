@@ -2,10 +2,7 @@ import React, { useEffect, useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SwiperCore, { Swiper as SwiperType } from "swiper";
 import "swiper/swiper-bundle.css";
-import {
-  FaArrowCircleLeft,
-  FaArrowCircleRight,
-} from "react-icons/fa";
+import { FaArrowCircleLeft, FaArrowCircleRight } from "react-icons/fa";
 import { Navigation } from "swiper/modules";
 import clsx from "clsx";
 import { winnersSessonOne } from "../constants";
@@ -14,17 +11,6 @@ SwiperCore.use([Navigation]);
 export const WinnersCards: React.FC = () => {
   // Reference for the swiper instance
   const swiperRef = useRef<SwiperType | null>(null);
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      if (swiperRef.current) {
-        swiperRef.current.slideNext();
-      }
-    }, 5000); // Slide every 5 seconds
-
-    // Cleanup the interval on component unmount
-    return () => clearInterval(timer);
-  }, []);
 
   return (
     <div className="relative px-4 sm:px-6 lg:px-8">
@@ -77,35 +63,9 @@ export const WinnersCards: React.FC = () => {
                   />
                 </div>
                 <div className="flex ">
-                  {/* {winner.place === 1 && (
-                    <img
-                      src={firstPlaceMedal}
-                      alt=""
-                      className="w-[40px] h-[40px] mt-4 relative right-2 "
-                    />
-                  )}
-                  {winner.place === 2 && (
-                    <img
-                      src={secondPlaceMedal}
-                      alt=""
-                      className="w-[40px] h-[40px] mt-4"
-                    />
-                  )}
-                  {winner.place === 3 && (
-                    <img
-                      src={theerdPlaceMedal}
-                      alt=""
-                      className="w-[40px] h-[40px] mt-4"
-                    />
-                  )} */}
                   <p
                     className={clsx(
-                      "font-poppins font-semibold text-gradient text-[32px] sm:text-[32px] lg:text-[30px]  leading-[1.2] lg:leading-[76.8px] w-full  mt-8 lg:mt-4  text-center text-silverGradient ",
-                      {
-                        // "text-goldGradient": winner.place === 1,
-                        // "text-silverGradient": winner.place === 2,
-                        // "text-bronzeGradient": winner.place === 3,
-                      }
+                      "font-poppins font-semibold text-gradient text-[32px] sm:text-[32px] lg:text-[30px]  leading-[1.2] lg:leading-[76.8px] w-full  mt-8 lg:mt-4  text-center text-silverGradient "
                     )}
                   >
                     {winner.projectTitle}

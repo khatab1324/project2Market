@@ -9,9 +9,9 @@ export const AboutUs = () => {
       {aboutUsContents.map((content) => (
         <div
           key={content.id}
-          className="w-[330px] h-[270px] p-5 text-white bg-gradient-to-br from-[#171a24] to-[#3f2d89] border-2 border-transparent rounded-lg flex flex-col cursor-pointer transform-gpu transition-all duration-800 ease-[cubic-bezier(0.23,1,0.32,1)] hover:rotate-[-4deg] ss:mr-8 mb-5"
+          className="w-[330px] h-[270px] p-5 text-white border-2 border-transparent rounded-lg flex flex-col cursor-pointer transform-gpu transition-all duration-800 ease-[cubic-bezier(0.23,1,0.32,1)] hover:rotate-[-4deg] ss:mr-8 mb-5"
         >
-          ``
+       
           <div className="flex-1">
             <div className="flex items-center">
               <span className="inline-flex items-center justify-center w-6 h-6 mr-3 text-sm font-semibold text-[#717171] bg-white rounded-full">
