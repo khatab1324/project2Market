@@ -5,11 +5,26 @@
 @tailwind utilities;
 
 :root {
+  --black-pink-gradient: linear-gradient(
+    142.39deg,
+    #756295 0%,
+    #6f6085 25%,
+    #6b5b83 35%,
+    #5d3a9e 50%,
+    #4d2199 75%,
+    #161375 100%
+  );
   --black-gradient: linear-gradient(
     144.39deg,
     #ffffff -278.56%,
     #6d6d6d -78.47%,
     #11101d 91.61%
+  );
+  --pink-gradient: linear-gradient(
+    142.39deg,
+    #bfbbbb 8.56%,
+    #495776 -25.47%,
+    #822b94 91.61%
   );
   --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
 }
@@ -40,6 +55,31 @@
     #f2fabd 25%,
     #efe35a 75%,
     #ffea00 100%
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.text-silverGradient {
+  background: radial-gradient(
+    circle at 71.16% 25.69%,
+    #8d8a8a 0%,
+    #d9d9d9 50%,
+    #ffffff 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.text-bronzeGradient {
+  background: radial-gradient(
+    circle at 71.16% 25.69%,
+    #f5f5f2 0%,
+    #ffffff 25%,
+    #eed3b8 25%,
+    #d89c5b 75%,
+    #cd7f32 100%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -133,6 +173,13 @@
 
 .feedback-card:hover {
   background: var(--black-gradient);
+}
+.feedback-card-winner {
+  background: transparent;
+}
+
+.feedback-card-winner {
+  background: var(--black-pink-gradient);
 }
 
 .blue__gradient {

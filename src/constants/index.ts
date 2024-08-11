@@ -112,9 +112,9 @@ export const whatTheDoctorSaid = [
   },
 ];
 export const majors = [
-  { id: "1", title: "AI / IOT" },
-  { id: "2", title: "IT" },
-  { id: "3", title: "engineer" },
+  { id: "1", title: "AI /IT" },
+  { id: "2", title: "Researshers" },
+  { id: "3", title: "Engineer/science" },
 ];
 
 export const winnersSessonOne = {

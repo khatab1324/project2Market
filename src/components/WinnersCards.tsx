@@ -13,7 +13,7 @@ import { winnersSessonOne } from "../constants";
 import firstPlaceMedal from "../assets/medal.png";
 import secondPlaceMedal from "../assets/medalSecond.png";
 import theerdPlaceMedal from "../assets/medalTheerd.png";
-
+import bauLogo from "../assets/P2M_P2M Logo.png";
 SwiperCore.use([Navigation]);
 
 export const WinnersCards: React.FC = () => {
@@ -61,18 +61,18 @@ export const WinnersCards: React.FC = () => {
             <SwiperSlide key={winner.id} className="p-3">
               <div
                 className={clsx(
-                  "flex flex-col justify-between px-6 sm:px-10 py-8 sm:py-12 rounded-[20px] max-w-[370px] mx-auto my-5 feedback-card",
+                  " px-6 sm:px-10 py-8 sm:py-12 rounded-[20px] max-w-[370px] mx-auto my-5  feedback-card-winner h-96",
                   {
                     "px-6 sm:px-10 py-8 sm:py-12": winner.place == 3,
                   }
                 )}
               >
-                <FaQuoteLeft className="text-2xl sm:text-3xl text-white mb-4" />
-
+                {/* <FaQuoteLeft className="text-2xl sm:text-3xl text-white mb-4" /> */}
+                {/* <img src={bauLogo} alt="" className="w-full h-12 mb-4 " /> */}
                 <div className="flex flex-row items-center">
                   <img
                     src={winner.image}
-                    className="w-full h-1/3 "
+                    className="w-full h-1/3 rounded-lg"
                     alt={winner.projectTitle}
                   />
                 </div>
@@ -81,7 +81,7 @@ export const WinnersCards: React.FC = () => {
                     <img
                       src={firstPlaceMedal}
                       alt=""
-                      className="w-[40px] h-[40px] mt-4"
+                      className="w-[40px] h-[40px] mt-4 relative right-2 "
                     />
                   )}
                   {winner.place === 2 && (
@@ -100,11 +100,11 @@ export const WinnersCards: React.FC = () => {
                   )}
                   <p
                     className={clsx(
-                      "font-poppins font-semibold text-gradient text-[25px] sm:text-[32px] lg:text-[23px]  leading-[1.2] lg:leading-[76.8px] w-full  mt-4 lg:mt-0  ml-4 ",
+                      "font-poppins font-semibold text-gradient text-[25px] sm:text-[32px] lg:text-[23px]  leading-[1.2] lg:leading-[76.8px] w-full  mt-4 lg:mt-0   ",
                       {
                         "text-goldGradient": winner.place === 1,
-                        "text-slate-500": winner.place === 2,
-                        "text-amber-900": winner.place === 3,
+                        "text-silverGradient": winner.place === 2,
+                        "text-bronzeGradient": winner.place === 3,
                       }
                     )}
                   >
