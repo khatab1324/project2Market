@@ -13,7 +13,7 @@ import { winnersSessonOne } from "../constants";
 import firstPlaceMedal from "../assets/medal.png";
 import secondPlaceMedal from "../assets/medalSecond.png";
 import theerdPlaceMedal from "../assets/medalTheerd.png";
-import bauLogo from "../assets/P2M_P2M Logo.png";
+import bauLogo from "../assets/bauLogo.png";
 SwiperCore.use([Navigation]);
 
 export const WinnersCards: React.FC = () => {
@@ -61,14 +61,19 @@ export const WinnersCards: React.FC = () => {
             <SwiperSlide key={winner.id} className="p-3">
               <div
                 className={clsx(
-                  " px-6 sm:px-10 py-8 sm:py-12 rounded-[20px] max-w-[370px] mx-auto my-5  feedback-card-winner h-96",
+                  " px-6 sm:px-10 py-8 sm:py-5 rounded-[20px] max-w-[370px] mx-auto my-5  feedback-card-winner h-96 ",
                   {
                     "px-6 sm:px-10 py-8 sm:py-12": winner.place == 3,
                   }
                 )}
               >
                 {/* <FaQuoteLeft className="text-2xl sm:text-3xl text-white mb-4" /> */}
-                {/* <img src={bauLogo} alt="" className="w-full h-12 mb-4 " /> */}
+                <div className="flex justify-center mb-8 sm:mb-4">
+                  {/* <img src={bauLogo} alt="" className="w-16 h-16 " /> */}
+                  <h3 className="font-poppins font-semibold xs:text-[40.89px] text-[30.89px] xs:leading-[60.16px] leading-[43.16px] text-winnerGradient">
+                    P2M TOP 1
+                  </h3>
+                </div>
                 <div className="flex flex-row items-center">
                   <img
                     src={winner.image}
@@ -76,8 +81,8 @@ export const WinnersCards: React.FC = () => {
                     alt={winner.projectTitle}
                   />
                 </div>
-                <div className="flex">
-                  {winner.place === 1 && (
+                <div className="flex ">
+                  {/* {winner.place === 1 && (
                     <img
                       src={firstPlaceMedal}
                       alt=""
@@ -97,14 +102,14 @@ export const WinnersCards: React.FC = () => {
                       alt=""
                       className="w-[40px] h-[40px] mt-4"
                     />
-                  )}
+                  )} */}
                   <p
                     className={clsx(
-                      "font-poppins font-semibold text-gradient text-[25px] sm:text-[32px] lg:text-[23px]  leading-[1.2] lg:leading-[76.8px] w-full  mt-4 lg:mt-0   ",
+                      "font-poppins font-semibold text-gradient text-[32px] sm:text-[32px] lg:text-[30px]  leading-[1.2] lg:leading-[76.8px] w-full  mt-8 lg:mt-4  text-center text-silverGradient ",
                       {
-                        "text-goldGradient": winner.place === 1,
-                        "text-silverGradient": winner.place === 2,
-                        "text-bronzeGradient": winner.place === 3,
+                        // "text-goldGradient": winner.place === 1,
+                        // "text-silverGradient": winner.place === 2,
+                        // "text-bronzeGradient": winner.place === 3,
                       }
                     )}
                   >

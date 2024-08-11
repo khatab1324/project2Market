@@ -5,7 +5,7 @@ import { SectionIntro } from "./SectionIntro";
 export const AboutUs = () => {
   return (
     <div className="flex flex-row flex-wrap justify-center">
-      <SectionIntro title=" our goals" content="" />
+      <SectionIntro title="Our Goals" content="" />
       {aboutUsContents.map((content) => (
         <div
           key={content.id}

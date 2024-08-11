@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { navLinks } from "../constants";
-import bauLogo from "./../assets/bauLogo.png";
+import bauLogo from "./../assets/ICEC Logo_Primary_C.png";
 import { HiMenuAlt2 } from "react-icons/hi";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 

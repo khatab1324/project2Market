@@ -7,12 +7,16 @@
 :root {
   --black-pink-gradient: linear-gradient(
     142.39deg,
-    #756295 0%,
+    /* #756295 0%,
     #6f6085 25%,
     #6b5b83 35%,
     #5d3a9e 50%,
     #4d2199 75%,
-    #161375 100%
+    #161375 100% */
+      #1e2559,
+    #261b53,
+    #0f1117 100%,
+    #ffffff 170%
   );
   --black-gradient: linear-gradient(
     144.39deg,
@@ -42,6 +46,13 @@
     #8d65d1 75%,
     #2922f1 100%
   );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.text-winnerGradient {
+  background: linear-gradient(157.81deg, #f0e7f9, #b392f1, #7232eb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
