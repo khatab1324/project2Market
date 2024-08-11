@@ -1,3 +1,4 @@
+import doctorImage from "../assets/WhatsApp Image 2024-07-31 at 4.12.01 PM.jpeg";
 export const navLinks = [
   {
     id: "aboutus",
@@ -58,6 +59,7 @@ export const whatTheDoctorSaid = [
     quote:
       "we are the best compatition in jordan and we are aim to univarsity student",
     postion: "Vice Dean",
+    image: doctorImage,
   },
   {
     id: "2",
@@ -65,6 +67,7 @@ export const whatTheDoctorSaid = [
     quote:
       "we are the best compatition in jordan and we are aim to univarsity student",
     postion: "Vice Dean",
+    image: doctorImage,
   },
   {
     id: "3",
@@ -72,6 +75,7 @@ export const whatTheDoctorSaid = [
     quote:
       "we are the best compatition in jordan and we are aim to univarsity student",
     postion: "Vice Dean",
+    image: doctorImage,
   },
   {
     id: "4",
@@ -79,6 +83,7 @@ export const whatTheDoctorSaid = [
     quote:
       "we are the best compatition in jordan and we are aim to univarsity student",
     postion: "Vice Dean",
+    image: doctorImage,
   },
   {
     id: "5",
@@ -86,6 +91,7 @@ export const whatTheDoctorSaid = [
     quote:
       "we are the best compatition in jordan and we are aim to univarsity student",
     postion: "Vice Dean",
+    image: doctorImage,
   },
   {
     id: "6",
@@ -93,6 +99,7 @@ export const whatTheDoctorSaid = [
     quote:
       "we are the best compatition in jordan and we are aim to univarsity student",
     postion: "Vice Dean",
+    image: doctorImage,
   },
   {
     id: "7",
@@ -100,6 +107,7 @@ export const whatTheDoctorSaid = [
     quote:
       "we are the best compatition in jordan and we are aim to univarsity student",
     postion: "Vice Dean",
+    image: doctorImage,
   },
 ];
 export const majors = [
@@ -107,3 +115,93 @@ export const majors = [
   { id: "2", title: "IT" },
   { id: "3", title: "engineer" },
 ];
+
+export const winnersSessonOne = {
+  AiIot: [
+    {
+      id: "1",
+      projectTitle: "smart home",
+      projectDescription:
+        "we are the best compatition in jordan and we are aim to univarsity student",
+      particepentsNames: [],
+      place: 1,
+      image: "",
+    },
+    {
+      id: "2",
+      projectTitle: "smart home",
+      projectDescription:
+        "we are the best compatition in jordan and we are aim to univarsity student",
+      particepentsNames: [],
+      place: 2,
+      image: "",
+    },
+    {
+      id: "3",
+      projectTitle: "smart home",
+      projectDescription:
+        "we are the best compatition in jordan and we are aim to univarsity student",
+      particepentsNames: [],
+      place: 3,
+      image: "",
+    },
+  ],
+  It: [
+    {
+      id: "1",
+      projectTitle: "smart home",
+      projectDescription:
+        "we are the best compatition in jordan and we are aim to univarsity student",
+      particepentsNames: [],
+      place: 1,
+      image: "",
+    },
+    {
+      id: "2",
+      projectTitle: "smart home",
+      projectDescription:
+        "we are the best compatition in jordan and we are aim to univarsity student",
+      particepentsNames: [],
+      place: 2,
+      image: "",
+    },
+    {
+      id: "3",
+      projectTitle: "smart home",
+      projectDescription:
+        "we are the best compatition in jordan and we are aim to univarsity student",
+      particepentsNames: [],
+      place: 3,
+      image: "",
+    },
+  ],
+  engineers: [
+    {
+      id: "1",
+      projectTitle: "smart home",
+      projectDescription:
+        "we are the best compatition in jordan and we are aim to univarsity student",
+      particepentsNames: [],
+      place: 1,
+      image: "",
+    },
+    {
+      id: "2",
+      projectTitle: "smart home",
+      projectDescription:
+        "we are the best compatition in jordan and we are aim to univarsity student",
+      particepentsNames: [],
+      place: 2,
+      image: "",
+    },
+    {
+      id: "3",
+      projectTitle: "smart home",
+      projectDescription:
+        "we are the best compatition in jordan and we are aim to univarsity student",
+      particepentsNames: [],
+      place: 3,
+      image: "",
+    },
+  ],
+};
