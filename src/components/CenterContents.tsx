@@ -5,7 +5,7 @@ import { Sponsors } from "./Sponsors";
 
 export const CenterContents = () => {
   return (
-    <section className=" text-white ">
+    <section className=" text-white p-4">
       
       <AboutUs />
       <Opinion />
