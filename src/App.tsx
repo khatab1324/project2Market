@@ -7,14 +7,13 @@ import { TracingBeam } from "./components/TestPage";
 function App() {
   return (
     <div className="bg-primary w-full overflow-hidden">
-      
-        {/* navbar section */}
-        <div className="sm:px-16 bg-black z-50 fixed absolute-0 w-full px-6 flex justify-center items-center">
-          <div className="xl:max-w-[1280px] w-full">
-            <Navbar />
-          </div>
+      {/* navbar section */}
+      <div className="sm:px-16 bg-primary z-50 fixed absolute-0 w-full px-6 flex justify-center items-center">
+        <div className="xl:max-w-[1280px] w-full">
+          <Navbar />
         </div>
-        <TracingBeam className="">
+      </div>
+      <TracingBeam className="">
         {/* first section */}
         <div className="sm:px-6 px-16 bg-primary flex justify-center items-start">
           <div className="xl:max-w-[1280px] w-full px-16">

@@ -4,14 +4,13 @@ import { SectionIntro } from "./SectionIntro";
 
 export const AboutUs = () => {
   return (
-    <div className="flex flex-row flex-wrap justify-center">
+    <div className="flex flex-row flex-wrap justify-center ">
       <SectionIntro title="Our Goals" content="" />
       {aboutUsContents.map((content) => (
         <div
           key={content.id}
-          className="w-[330px] h-[270px] p-5 text-white border-2 border-transparent rounded-lg flex flex-col cursor-pointer transform-gpu transition-all duration-800 ease-[cubic-bezier(0.23,1,0.32,1)] hover:rotate-[-4deg] ss:mr-8 mb-5"
+          className="w-[330px] h-[270px] p-5 text-white border-2 border-transparent rounded-lg flex flex-col cursor-pointer transform-gpu ransition-transform duration-500 ease-out hover:scale-105 hover:shadow-lg ss:mr-8 mb-5 backdrop-filter backdrop-blur-lg"
         >
-       
           <div className="flex-1">
             <div className="flex items-center">
               <span className="inline-flex items-center justify-center w-6 h-6 mr-3 text-sm font-semibold text-[#717171] bg-white rounded-full">
@@ -27,9 +26,9 @@ export const AboutUs = () => {
       {/* this for what people we are aiming for  */}
       <SectionIntro title="how people we are aiming for" content="" />
       <div className="w-full flex justify-around flex-wrap ">
-        <Majors title="AI/IOT"/>
-        <Majors title="IT"/>
-        <Majors title="ENGINEERS"/>
+        <Majors title="AI/IOT" />
+        <Majors title="IT" />
+        <Majors title="ENGINEERS" />
       </div>
     </div>
   );

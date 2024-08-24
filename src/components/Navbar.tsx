@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { navLinks } from "../constants";
 import bauLogo from "./../assets/ICEC Logo_Primary_C.png";
+// import youthInnovationClub from "./../assets/youthInnovationClub.png";
+import youthInnovationClub from "./../assets/P2M_P2M Logo.png";
 import { HiMenuAlt2 } from "react-icons/hi";
 import { AiOutlineCloseCircle } from "react-icons/ai";
 
@@ -9,7 +11,17 @@ export const Navbar = () => {
   const [isMenueOpen, setisMenueOpen] = useState(false);
   return (
     <nav className="w-full py-1 flex justify-center items-center navbar">
-      <img src={bauLogo} alt="hoobank" className="w-[114px] h-[90px]" />
+      <img src={bauLogo} alt="hoobank" className="w-[70px] h-[70px]" />
+      {/* <img
+        src={youthInnovationClub}
+        alt=""
+        className="w-[124px] h-[110px] ml-8"
+      /> */}
+      <img
+        src={youthInnovationClub}
+        alt=""
+        className="w-[90px] h-[93.5px] ml-"
+      />{" "}
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li

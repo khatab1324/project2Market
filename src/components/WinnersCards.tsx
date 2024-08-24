@@ -6,6 +6,7 @@ import { FaArrowCircleLeft, FaArrowCircleRight } from "react-icons/fa";
 import { Navigation } from "swiper/modules";
 import clsx from "clsx";
 import { winnersSessonOne } from "../constants";
+
 SwiperCore.use([Navigation]);
 
 export const WinnersCards: React.FC = () => {
@@ -69,7 +70,10 @@ export const WinnersCards: React.FC = () => {
       >
         <div className="relative">
           {winnersSessonOne.AiIot.map((winner) => (
-            <SwiperSlide key={winner.id} className="p-3">
+            <SwiperSlide
+              key={winner.id}
+              className="px-4 transition-transform duration-700 ease-in-out transform hover:scale-105"
+            >
               <div
                 className={clsx(
                   "feedback-card-winner px-6 sm:px-10 py-8 sm:py-5 rounded-[20px] max-w-[370px] mx-auto my-5 h-96"
@@ -102,15 +106,15 @@ export const WinnersCards: React.FC = () => {
         </div>
       </Swiper>
       {showNavButtons && (
-        <div className="flex items-center absolute bottom-[170px] left-0 right-0 transform -translate-y-1/2">
+        <div className="flex items-center absolute bottom-[170px] -left-2 -right-2 transform -translate-y-1/2 ">
           <FaArrowCircleLeft
             size={20}
-            className="swiper-button-prev cursor-pointer"
+            className="swiper-button-prev cursor-pointer "
             onClick={handlePrev}
           />
           <FaArrowCircleRight
             size={20}
-            className="swiper-button-next cursor-pointer"
+            className="swiper-button-next cursor-pointer "
             onClick={handleNext}
           />
         </div>
