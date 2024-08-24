@@ -166,6 +166,20 @@
   margin-right: 0px;
 }
 
+@media (min-width: 640px) {
+  .sm\:feedback-card {
+    @apply feedback-card;
+  }
+}
+
+/* On smaller screens, the styles will be removed */
+@media (max-width: 639px) {
+  .sm\:feedback-card {
+    @apply p-4;
+    /* Optionally, apply different styles here */
+  }
+}
+
 .feedback-card {
   background: transparent;
 }

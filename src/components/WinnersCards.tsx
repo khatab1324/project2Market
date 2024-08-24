@@ -74,16 +74,16 @@ export const WinnersCards: React.FC<{ major: major }> = ({
   }, []);
 
   return (
-    <div className="relative px-4 sm:px-6 lg:px-8">
+    <div className="relative px-2 sm:px-6 lg:px-8">
       <Swiper
         slidesPerView={1}
         spaceBetween={20}
         breakpoints={{
-          640: {
+          840: {
             slidesPerView: 2,
             spaceBetween: 20,
           },
-          1024: {
+          1224: {
             slidesPerView: 3,
             spaceBetween: 30,
           },
@@ -97,11 +97,11 @@ export const WinnersCards: React.FC<{ major: major }> = ({
           {major.data.map((winner) => (
             <SwiperSlide
               key={winner.id}
-              className="px-4 transition-transform duration-700 ease-in-out transform hover:scale-105"
+              className="px-4 transition-transform duration-700 ease-in-out transform sm:hover:scale-105"
             >
               <div
                 className={clsx(
-                  "feedback-card-winner px-6 sm:px-10 py-8 sm:py-5 rounded-[20px] max-w-[370px] mx-auto my-5 h-96"
+                  "feedback-card-winner px-6 sm:px-10 py-8 sm:py-5 rounded-[20px] max-w-[370px] mx-auto my-5 "
                 )}
               >
                 <div className="mb-8 sm:mb-4">
@@ -109,17 +109,17 @@ export const WinnersCards: React.FC<{ major: major }> = ({
                     P2M TOP {winner.place}
                   </h3>
                 </div>
-                <div className="flex flex-row items-center">
+                <div className="flex flex-row h-48 items-center">
                   <img
                     src={winner.image}
-                    className="w-full h-1/3 rounded-lg"
+                    className="w-full h-40 sm:h-44 rounded-lg"
                     alt={winner.projectTitle}
                   />
                 </div>
                 <div className="flex">
                   <p
                     className={clsx(
-                      "font-poppins font-semibold text-gradient text-[32px] sm:text-[32px] lg:text-[30px] leading-[1.2] lg:leading-[76.8px] w-full mt-8 lg:mt-4 text-silverGradient"
+                      "font-poppins font-semibold text-gradient  text-[24px] sm:text-[32px] lg:text-[26px] leading-[1.2] lg:leading-[76.8px] w-full mt-8 lg:mt-4 text-silverGradient"
                     )}
                   >
                     {winner.projectTitle}
@@ -131,7 +131,7 @@ export const WinnersCards: React.FC<{ major: major }> = ({
         </div>
       </Swiper>
       {showNavButtons && (
-        <div className="flex items-center absolute bottom-[170px] -left-2 -right-2 transform -translate-y-1/2 ">
+        <div className="flex items-center absolute bottom-[170px] -left-4 -right-4 transform -translate-y-1/2 ">
           <FaArrowCircleLeft
             size={20}
             className="swiper-button-prev cursor-pointer "

@@ -1,5 +1,24 @@
 import winnersInProjectToMarket from "../assets/WhatsApp Image 2024-08-11 at 2.13.08 PM.jpeg";
-import sss from "../assets/WhatsApp Image 2024-07-30 at 7.25.40 PM.jpeg";
+import topOneItAi from "../assets/winnersImg/topOneItAi.jpg";
+import topTowItAi from "../assets/winnersImg/topTowItAi.jpg";
+import topThreeItAi from "../assets/winnersImg/topThreeItAi.jpg";
+
+import topOneResearshers from "../assets/winnersImg/topOneResearshers.jpg";
+import topTowResearshers from "../assets/winnersImg/topTowResearshers.jpg";
+import topThreeResearshers from "../assets/winnersImg/topThreeResearshers.jpg";
+
+import topOneScienceEng from "../assets/winnersImg/topOneScienceEng.jpg";
+import topTowScienceEng from "../assets/winnersImg/topTowScienceEng.jpg";
+import topThreeScienceEng from "../assets/winnersImg/topThreeScienceEng.jpg";
+
+import AbeerAlHyari from "../assets/drImg/AbeerAlHyari.jpg";
+import AliAbedAlKareemAyedTaani from "../assets/drImg/AliAbedAlKareemAyedTaani.jpg";
+import AryafAladwan from "../assets/drImg/AryafAladwan.jpg";
+import GhaziAlWeshah from "../assets/drImg/GhaziAlWeshah.jpg";
+import JafarAlzubi from "../assets/drImg/JafarAlzubi.jpg";
+import MajdiBeseiso from "../assets/drImg/MajdiBeseiso.jpg";
+import SuliemanBaniAhmad from "../assets/drImg/SuliemanBaniAhmad.jpg";
+
 export const navLinks = [
   {
     id: "aboutus",
@@ -13,7 +32,10 @@ export const navLinks = [
     id: "particepents",
     title: "Particepents",
   },
-
+  {
+    id: "sponsors",
+    title: "Sponsors",
+  },
   {
     id: "register",
     title: "Register",
@@ -97,75 +119,59 @@ export const aboutUsContents = [
 export const whatTheDoctorSaid = [
   {
     id: "1",
-    name: "Dr.1",
+    name: "Dr. Abeer Al Hyari",
     quote:
       "we are the best compatition in jordan and we are aim to univarsity student",
-    postion: "Vice Dean",
-    image: winnersInProjectToMarket,
+    postion: "Computer Engineering",
+    image: AbeerAlHyari,
   },
   {
     id: "2",
-    name: "Dr.2",
+    name: "Prof.Ghazi Al-Weshah",
     quote:
       "we are the best compatition in jordan and we are aim to univarsity student",
-    postion: "Vice Dean",
-    image: winnersInProjectToMarket,
+    postion: "Marketing",
+    image: GhaziAlWeshah,
   },
   {
     id: "3",
-    name: "Dr.3",
+    name: "Dr. Aryaf Aladwan",
     quote:
       "we are the best compatition in jordan and we are aim to univarsity student",
-    postion: "Vice Dean",
-    image: winnersInProjectToMarket,
+    postion: "Computer Science & Artificial Intelligence",
+    image: AryafAladwan,
   },
   {
     id: "4",
-    name: "Dr.4",
+    name: "Dr. Jafar Alzubi",
     quote:
       "we are the best compatition in jordan and we are aim to univarsity student",
-    postion: "Vice Dean",
-    image: winnersInProjectToMarket,
+    postion: "Computer Engineering & Networks Security",
+    image: JafarAlzubi,
   },
   {
     id: "5",
-    name: "Dr.5",
+    name: "Prof. Sulieman Bani-Ahmad",
     quote:
       "we are the best compatition in jordan and we are aim to univarsity student",
-    postion: "Vice Dean",
-    image: winnersInProjectToMarket,
+    postion: "Computing & information sciences",
+    image: SuliemanBaniAhmad,
   },
   {
     id: "6",
-    name: "Dr.6",
+    name: "Dr. Majdi Beseiso",
     quote:
       "we are the best compatition in jordan and we are aim to univarsity student",
-    postion: "Vice Dean",
-    image: winnersInProjectToMarket,
+    postion: "Information & Communication Technology",
+    image: MajdiBeseiso,
   },
   {
     id: "7",
-    name: "Dr.7",
+    name: "Prof. Ali Taani",
     quote:
       "we are the best compatition in jordan and we are aim to univarsity student",
-    postion: "Vice Dean",
-    image: winnersInProjectToMarket,
-  },
-  {
-    id: "8",
-    name: "Dr.8",
-    quote:
-      "we are the best compatition in jordan and we are aim to univarsity student",
-    postion: "Vice Dean",
-    image: winnersInProjectToMarket,
-  },
-  {
-    id: "9",
-    name: "Dr.9",
-    quote:
-      "we are the best compatition in jordan and we are aim to univarsity student",
-    postion: "Vice Dean",
-    image: winnersInProjectToMarket,
+    postion: "Astrophysics & Space Science",
+    image: AliAbedAlKareemAyedTaani,
   },
 ];
 export const majors = [
@@ -185,7 +191,7 @@ export const winnersSessonOne = {
           "we are the best compatition in jordan and we are aim to univarsity student",
         particepentsNames: [],
         place: 1,
-        image: winnersInProjectToMarket,
+        image: topOneItAi,
       },
       {
         id: "2",
@@ -194,7 +200,7 @@ export const winnersSessonOne = {
           "we are the best compatition in jordan and we are aim to univarsity student",
         particepentsNames: [],
         place: 2,
-        image: sss,
+        image: topTowItAi,
       },
       {
         id: "3",
@@ -203,7 +209,7 @@ export const winnersSessonOne = {
           "we are the best compatition in jordan and we are aim to univarsity student",
         particepentsNames: [],
         place: 3,
-        image: sss,
+        image: topThreeItAi,
       },
     ],
   },
@@ -217,7 +223,7 @@ export const winnersSessonOne = {
           "we are the best compatition in jordan and we are aim to univarsity student",
         particepentsNames: [],
         place: 1,
-        image: winnersInProjectToMarket,
+        image: topOneResearshers,
       },
       {
         id: "2",
@@ -226,7 +232,7 @@ export const winnersSessonOne = {
           "we are the best compatition in jordan and we are aim to univarsity student",
         particepentsNames: [],
         place: 2,
-        image: winnersInProjectToMarket,
+        image: topTowResearshers,
       },
       {
         id: "3",
@@ -235,7 +241,7 @@ export const winnersSessonOne = {
           "we are the best compatition in jordan and we are aim to univarsity student",
         particepentsNames: [],
         place: 3,
-        image: winnersInProjectToMarket,
+        image: topThreeResearshers,
       },
     ],
   },
@@ -249,7 +255,7 @@ export const winnersSessonOne = {
           "we are the best compatition in jordan and we are aim to univarsity student",
         particepentsNames: [],
         place: 1,
-        image: winnersInProjectToMarket,
+        image: topOneScienceEng,
       },
       {
         id: "2",
@@ -258,7 +264,7 @@ export const winnersSessonOne = {
           "we are the best compatition in jordan and we are aim to univarsity student",
         particepentsNames: [],
         place: 2,
-        image: winnersInProjectToMarket,
+        image: topTowScienceEng,
       },
       {
         id: "3",
@@ -267,7 +273,7 @@ export const winnersSessonOne = {
           "we are the best compatition in jordan and we are aim to univarsity student",
         particepentsNames: [],
         place: 3,
-        image: winnersInProjectToMarket,
+        image: topThreeScienceEng,
       },
     ],
   },

@@ -57,7 +57,7 @@ export const Opinion: React.FC = () => {
         <div className="relative">
           {whatTheDoctorSaid.map((doctor: any) => (
             <SwiperSlide key={doctor.id} className="p-3">
-              <div className="flex flex-col justify-between px-6 sm:px-10 py-8 sm:py-12 rounded-[20px] max-w-[370px] mx-auto my-5 feedback-card">
+              <div className="flex flex-col justify-between px-6 sm:px-10 py-8 sm:py-12 rounded-[20px] max-w-[370px] mx-auto my-5 sm:feedback-card">
                 <FaQuoteLeft className="text-2xl sm:text-3xl text-white mb-4" />
                 <p className="font-poppins font-normal text-[16px] sm:text-[18px] leading-[1.6] text-white mb-6">
                   {doctor.quote}
@@ -68,12 +68,13 @@ export const Opinion: React.FC = () => {
                     className="w-[40px] h-[40px] sm:w-[48px] sm:h-[48px] rounded-full"
                     alt={doctor.name}
                   />
+
                   <div className="flex flex-col ml-4">
                     <h4 className="font-poppins font-semibold text-[16px] sm:text-[20px] leading-tight text-white">
                       {doctor.name}
-                    </h4>
-                    <p className="font-poppins font-normal text-[14px] sm:text-[16px] leading-tight text-dimWhite">
-                      {doctor.position}
+                    </h4>{" "}
+                    <p className="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite">
+                      {doctor.postion}
                     </p>
                   </div>
                 </div>
@@ -82,7 +83,7 @@ export const Opinion: React.FC = () => {
           ))}
         </div>
       </Swiper>
-      <div className="flex items-center absolute bottom-[170px] left-0 right-0 transform -translate-y-1/2">
+      <div className="flex items-center absolute bottom-[170px] -left-3 right-0 transform -translate-y-1/2">
         <FaArrowCircleLeft
           size={20}
           className="swiper-button-prev cursor-pointer"

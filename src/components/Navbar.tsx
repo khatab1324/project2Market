@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { navLinks } from "../constants";
-import bauLogo from "./../assets/ICEC Logo_Primary_C.png";
+import bauLogo from "./../assets/bauLogo.png";
 // import youthInnovationClub from "./../assets/youthInnovationClub.png";
 import youthInnovationClub from "./../assets/P2M_P2M Logo.png";
 import { HiMenuAlt2 } from "react-icons/hi";
