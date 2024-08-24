@@ -19,12 +19,13 @@ export const Majors = ({ title }: { title: string }) => {
     // </div>
     <div className="container  mr-4 xs:w-44  w-32">
       <div className="flex  justify-center items-center gap-10 mb-10 ">
-        <div
-          className=" bg-no-repeat bg-[length:100%_100%]  flex  justify-center items-center w-full"
-          style={{
-            backgroundImage: `url(${bg})`,
-          }}
-        >
+        <div className="w-full flex justify-center items-center">
+          <img
+            src={bg}
+            alt="Background"
+            className="absolute h-28 w-32 ss:w-36 sm:w-40 "
+          />
+
           <div className=" flex flex-wrap flex-row p-[2.4rem] ">
             <h1
               className="xs:text-2xl text-xl flex justify-center animate-colorCycle drop-shadow-2xl shadow-white "
