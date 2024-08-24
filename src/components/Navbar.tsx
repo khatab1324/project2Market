@@ -10,7 +10,7 @@ export const Navbar = () => {
   const [active, setActive] = useState("Home");
   const [isMenueOpen, setisMenueOpen] = useState(false);
   return (
-    <nav className="w-full py-1 flex justify-center items-center navbar">
+    <nav className="w-full  flex justify-center items-center navbar">
       <a
         href="https://www.bau.edu.jo/bauar/Units/ICEC/Home.aspx"
         target="_blank"
@@ -29,7 +29,7 @@ export const Navbar = () => {
       <img
         src={youthInnovationClub}
         alt=""
-        className="w-[90px] h-[93.5px] md:ml-4 "
+        className="w-[70px] h-[73.5px] sm:w-[90px] sm:h-[93.5px] md:ml-4 "
       />{" "}
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
