@@ -1,4 +1,5 @@
 import winnersInProjectToMarket from "../assets/WhatsApp Image 2024-08-11 at 2.13.08 PM.jpeg";
+import sss from "../assets/WhatsApp Image 2024-07-30 at 7.25.40 PM.jpeg";
 export const navLinks = [
   {
     id: "aboutus",
@@ -111,13 +112,79 @@ export const whatTheDoctorSaid = [
   },
 ];
 export const majors = [
-  { id: "1", title: "AI /IT" },
-  { id: "2", title: "Researshers" },
-  { id: "3", title: "Engineer/science" },
+  { id: "ai", title: "AI /IT" },
+  { id: "researshers", title: "Researshers" },
+  { id: "science", title: "Engineer/science" },
 ];
 
 export const winnersSessonOne = {
-  AiIot: [
+  AiIot: {
+    id: "ai",
+    data: [
+      {
+        id: "1",
+        projectTitle: "smart home",
+        projectDescription:
+          "we are the best compatition in jordan and we are aim to univarsity student",
+        particepentsNames: [],
+        place: 1,
+        image: winnersInProjectToMarket,
+      },
+      {
+        id: "2",
+        projectTitle: "tomore bladna",
+        projectDescription:
+          "we are the best compatition in jordan and we are aim to univarsity student",
+        particepentsNames: [],
+        place: 2,
+        image: sss,
+      },
+      {
+        id: "3",
+        projectTitle: "startcafy",
+        projectDescription:
+          "we are the best compatition in jordan and we are aim to univarsity student",
+        particepentsNames: [],
+        place: 3,
+        image: sss,
+      },
+    ],
+  },
+  It: {
+    id: "researshers",
+    data: [
+      {
+        id: "1",
+        projectTitle: "smart home",
+        projectDescription:
+          "we are the best compatition in jordan and we are aim to univarsity student",
+        particepentsNames: [],
+        place: 1,
+        image: winnersInProjectToMarket,
+      },
+      {
+        id: "2",
+        projectTitle: "smart home",
+        projectDescription:
+          "we are the best compatition in jordan and we are aim to univarsity student",
+        particepentsNames: [],
+        place: 2,
+        image: winnersInProjectToMarket,
+      },
+      {
+        id: "3",
+        projectTitle: "smart home",
+        projectDescription:
+          "we are the best compatition in jordan and we are aim to univarsity student",
+        particepentsNames: [],
+        place: 3,
+        image: winnersInProjectToMarket,
+      },
+    ],
+  },
+  engineers:{
+    id:"science",
+    data:[
     {
       id: "1",
       projectTitle: "smart home",
@@ -129,35 +196,6 @@ export const winnersSessonOne = {
     },
     {
       id: "2",
-      projectTitle: "tomore bladna",
-      projectDescription:
-        "we are the best compatition in jordan and we are aim to univarsity student",
-      particepentsNames: [],
-      place: 2,
-      image: winnersInProjectToMarket,
-    },
-    {
-      id: "3",
-      projectTitle: "startcafy",
-      projectDescription:
-        "we are the best compatition in jordan and we are aim to univarsity student",
-      particepentsNames: [],
-      place: 3,
-      image: winnersInProjectToMarket,
-    },
-  ],
-  It: [
-    {
-      id: "1",
-      projectTitle: "smart home",
-      projectDescription:
-        "we are the best compatition in jordan and we are aim to univarsity student",
-      particepentsNames: [],
-      place: 1,
-      image: winnersInProjectToMarket,
-    },
-    {
-      id: "2",
       projectTitle: "smart home",
       projectDescription:
         "we are the best compatition in jordan and we are aim to univarsity student",
@@ -174,34 +212,5 @@ export const winnersSessonOne = {
       place: 3,
       image: winnersInProjectToMarket,
     },
-  ],
-  engineers: [
-    {
-      id: "1",
-      projectTitle: "smart home",
-      projectDescription:
-        "we are the best compatition in jordan and we are aim to univarsity student",
-      particepentsNames: [],
-      place: 1,
-      image: winnersInProjectToMarket,
-    },
-    {
-      id: "2",
-      projectTitle: "smart home",
-      projectDescription:
-        "we are the best compatition in jordan and we are aim to univarsity student",
-      particepentsNames: [],
-      place: 2,
-      image: winnersInProjectToMarket,
-    },
-    {
-      id: "3",
-      projectTitle: "smart home",
-      projectDescription:
-        "we are the best compatition in jordan and we are aim to univarsity student",
-      particepentsNames: [],
-      place: 3,
-      image: winnersInProjectToMarket,
-    },
-  ],
+  ]},
 };

@@ -9,7 +9,32 @@ import { winnersSessonOne } from "../constants";
 
 SwiperCore.use([Navigation]);
 
-export const WinnersCards: React.FC = () => {
+type major = {
+  id: string;
+  data: {
+    id: string;
+    projectTitle: string;
+    projectDescription: string;
+    particepentsNames: never[];
+    place: number;
+    image: string;
+  }[];
+};
+export const WinnersCards: React.FC<{ major: major }> = ({
+  major,
+}: {
+  major: {
+    id: string;
+    data: {
+      id: string;
+      projectTitle: string;
+      projectDescription: string;
+      particepentsNames: never[];
+      place: number;
+      image: string;
+    }[];
+  };
+}) => {
   const swiperRef = useRef<SwiperType | null>(null);
   const [showNavButtons, setShowNavButtons] = useState(true);
   const groupSize = 3; // Adjust this depending on how many cards you want to move at once
@@ -69,7 +94,7 @@ export const WinnersCards: React.FC = () => {
         className="multiple-slide-carousel"
       >
         <div className="relative">
-          {winnersSessonOne.AiIot.map((winner) => (
+          {major.data.map((winner) => (
             <SwiperSlide
               key={winner.id}
               className="px-4 transition-transform duration-700 ease-in-out transform hover:scale-105"

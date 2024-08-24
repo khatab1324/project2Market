@@ -1,6 +1,9 @@
+import { majors, winnersSessonOne } from "../constants";
 import { WinnersCards } from "./WinnersCards";
 
-export const MajorCard = ({ title }: { title: string }) => {
+export const MajorCard = ({ id, title }: { id: string; title: string }) => {
+  console.log(id);
+
   return (
     <div>
       <div className="w-full flex flex-col lg:flex-row justify-between items-start lg:items-center sm:mb-16 mb-6 mt-8 relative z-[1] mt-40">
@@ -8,7 +11,15 @@ export const MajorCard = ({ title }: { title: string }) => {
           {title}
         </h2>
       </div>
-      <WinnersCards />
+      {id === winnersSessonOne.AiIot.id && (
+        <WinnersCards major={winnersSessonOne.AiIot} />
+      )}{" "}
+      {id === winnersSessonOne.It.id && (
+        <WinnersCards major={winnersSessonOne.It} />
+      )}{" "}
+      {id === winnersSessonOne.engineers.id && (
+        <WinnersCards major={winnersSessonOne.engineers} />
+      )}{" "}
     </div>
   );
 };
