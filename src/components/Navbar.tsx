@@ -18,7 +18,7 @@ export const Navbar = () => {
         <img
           src={bauLogo}
           alt="hoobank"
-          className="w-[70px] h-[70px] cursor-pointer"
+          className="w-[63px] h-[63px] cursor-pointer"
         />
       </a>
       {/* <img
