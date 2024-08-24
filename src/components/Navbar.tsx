@@ -11,7 +11,16 @@ export const Navbar = () => {
   const [isMenueOpen, setisMenueOpen] = useState(false);
   return (
     <nav className="w-full py-1 flex justify-center items-center navbar">
-      <img src={bauLogo} alt="hoobank" className="w-[70px] h-[70px]" />
+      <a
+        href="https://www.bau.edu.jo/bauar/Units/ICEC/Home.aspx"
+        target="_blank"
+      >
+        <img
+          src={bauLogo}
+          alt="hoobank"
+          className="w-[70px] h-[70px] cursor-pointer"
+        />
+      </a>
       {/* <img
         src={youthInnovationClub}
         alt=""
@@ -20,7 +29,7 @@ export const Navbar = () => {
       <img
         src={youthInnovationClub}
         alt=""
-        className="w-[90px] h-[93.5px] ml-"
+        className="w-[90px] h-[93.5px] md:ml-4 "
       />{" "}
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (

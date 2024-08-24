@@ -28,7 +28,7 @@ export const Footer = () => {
           </div>
 
           {/* Developers Section */}
-          <div className="mt-4 md:mt-0">
+          <div className="mt-10 md:mt-0">
             <h4 className="text-lg uppercase font-semibold text-indigo-500 mb-4">
               Developers
             </h4>

@@ -32,10 +32,7 @@ export const navLinks = [
     id: "particepents",
     title: "Particepents",
   },
-  {
-    id: "sponsors",
-    title: "Sponsors",
-  },
+
   {
     id: "register",
     title: "Register",
@@ -43,9 +40,9 @@ export const navLinks = [
 ];
 
 export const statsOfTheCompetition = [
-  { id: "1", title: "Participants", value: "+200" },
-  { id: "2", title: "sponsors", value: "+50" },
-  { id: "3", title: "prizes", value: "+1000$" },
+  { id: "1", title: "Participants", value: "+70" },
+  { id: "2", title: "sponsors", value: "+30" },
+  { id: "3", title: "prizes", value: "+1800" },
 ];
 
 export const majorsForThisSession = [
@@ -57,38 +54,38 @@ export const aboutIcec = [
   {
     id: "1",
     contentNumber: "1",
-    title: "how we are",
+    title: "Vision",
     content:
-      "we are the best compatition in jordan and we are aim to univarsity student",
+      "Employing creativity and innovation in entrepreneurship and sustainable development.",
   },
   {
     id: "2",
     contentNumber: "2",
-    title: "what we do",
+    title: "Mission",
     content:
-      "we are the best compatition in jordan and we are aim to univarsity student",
+      "Creating an environment that attracts innovators, develops their products, and markets them to sustain societal prosperity.",
   },
 ];
 export const aboutP2M = [
   {
     id: "1",
     contentNumber: "1",
-    title: "how we are",
+    title: "How we are",
     content:
-      "we are the best compatition in jordan and we are aim to univarsity student",
+      "P2M is a competition and exhibition showcasing innovative projects in engineering, software development, AI, and IoT.",
   },
   {
     id: "2",
     contentNumber: "2",
-    title: "what we do",
+    title: "What we Aming For ",
     content:
-      "we are the best compatition in jordan and we are aim to univarsity student",
+      "It aims to turn these projects into start-up companies through entrepreneurship training and evaluation by a panel of judges",
   },
   {
     id: "3",
     contentNumber: "3",
-    title: "how we rule",
-    content: "link",
+    title: "How we Rule",
+    content: "",
   },
 ];
 
@@ -138,7 +135,7 @@ export const whatTheDoctorSaid = [
     name: "Dr. Aryaf Aladwan",
     quote:
       "we are the best compatition in jordan and we are aim to univarsity student",
-    postion: "Computer Science & Artificial Intelligence",
+    postion: "CS & AI",
     image: AryafAladwan,
   },
   {
@@ -146,7 +143,7 @@ export const whatTheDoctorSaid = [
     name: "Dr. Jafar Alzubi",
     quote:
       "we are the best compatition in jordan and we are aim to univarsity student",
-    postion: "Computer Engineering & Networks Security",
+    postion: "CE & Networks Security",
     image: JafarAlzubi,
   },
   {
@@ -162,7 +159,7 @@ export const whatTheDoctorSaid = [
     name: "Dr. Majdi Beseiso",
     quote:
       "we are the best compatition in jordan and we are aim to univarsity student",
-    postion: "Information & Communication Technology",
+    postion: "CS",
     image: MajdiBeseiso,
   },
   {

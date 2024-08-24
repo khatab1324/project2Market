@@ -15,8 +15,8 @@
       #00040f 8.4% */
       /* idea 3 */
       #4b4ba6,
-      #040818 8.4%,
-      #2d2d80 700%
+      #030611 8.4%,
+      #11112b 700%
       /*  */
     );
   --black-gradient: linear-gradient(144.39deg,
@@ -48,7 +48,7 @@
 }
 
 .text-winnerGradient {
-  background: linear-gradient(157.81deg, #f0e7f9, #b392f1, #7232eb);
+  background: linear-gradient(90.81deg, #6366f1, #7577ef, #e9ebf1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -70,7 +70,7 @@
 
 .text-silverGradient {
   background: radial-gradient(circle at 71.16% 25.69%,
-      #8d8a8a 0%,
+      #dad5d5 0%,
       #d9d9d9 50%,
       #ffffff 100%);
   -webkit-background-clip: text;

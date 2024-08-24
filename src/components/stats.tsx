@@ -40,7 +40,6 @@ const useAnimateValues = (stats: Stat[]): AnimatedValue[] => {
     };
 
     stats.forEach((state) => {
-      // Convert state.value to a number
       const endValue = parseInt(state.value, 10);
       animateValue(0, endValue, 2000, (newValue) => {
         setAnimatedValues((prevValues) =>
@@ -73,6 +72,7 @@ export const StatsComponent: React.FC = () => {
             style={{ transitionProperty: "opacity, transform" }}
           >
             {state.value}
+            {state.id === "3" && " jd"}
           </p>
         </div>
       ))}
