@@ -1,6 +1,7 @@
 import { AboutUs } from "./AboutUs";
 import { Opinion } from "./Opinion";
 import { Particepents } from "./Particepents";
+import { Regeister } from "./Regeister";
 import { Sponsors } from "./Sponsors";
 
 export const CenterContents = () => {
@@ -9,7 +10,8 @@ export const CenterContents = () => {
       <AboutUs />
       <Opinion />
       <Particepents />
-      <Sponsors />
+      {/* <Sponsors /> */}
+      <Regeister />
     </section>
   );
 };

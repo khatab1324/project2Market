@@ -59,7 +59,7 @@ export const StatsComponent: React.FC = () => {
   const animatedValues = useAnimateValues(statsOfTheCompetition);
 
   return (
-    <div className="flex flex-row flex-wrap xs:justify-center justify-start ss:mb-20 mb-16 ss:mt-20 mt-16 lg:justify-around xl:justify-between">
+    <div className="flex flex-row flex-wrap xs:justify-center justify-start ss:mb-20 mb-16 ss:mt-40 mt-16 lg:justify-around xl:justify-between">
       {animatedValues.map((state) => (
         <div
           key={state.id}

@@ -106,7 +106,7 @@ export const WinnersCards: React.FC<{ major: major }> = ({
               >
                 <div className="mb-8 sm:mb-4">
                   <h3 className="font-poppins font-semibold xs:text-[40.89px] text-[30.89px] xs:leading-[60.16px] leading-[43.16px] text-winnerGradient">
-                    P2M TOP 1
+                    P2M TOP {winner.place}
                   </h3>
                 </div>
                 <div className="flex flex-row items-center">

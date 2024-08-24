@@ -5,13 +5,13 @@ import tempImage from "../assets/WhatsApp Image 2024-07-31 at 4.12.01 PM.jpeg";
 // import {BackgroundCircles} from "./"
 import rocket from "../assets/rocket-svgrepo-com.svg";
 import curve from "../assets/hero/curve.png";
-import heroBackground from "../assets/hero/hero-background.jpg"
+import heroBackground from "../assets/hero/hero-background.jpg";
 export const MovingPages = () => {
   return (
     //   <Vortex>
 
     //   </Vortex>
-    <section className="flex md:flex-row flex-col sm:pt-28 pt-28 ">
+    <section className="flex md:flex-row flex-col sm:pt-36 pt-28 ">
       <div className="flex-1 flex flex-col justify-center items-center xl:px-0 sm:px-16 px-6">
         <div className="h-full flex z-20 flex-col justify-center items-center font-poppins font-semibold ss:text-[100px] text-[42px] text-white ss:leading-[120.8px] leading-[75px]">
           <span className="text-gradient">Project2Market</span>
@@ -31,7 +31,7 @@ export const MovingPages = () => {
         </div>
         <div className="flex-grow"></div>{" "}
         {/*broooooo this for the space broooooo */}
-        <div className="md:mr-4 mr-0">
+        <div className="md:mr-4 mr-0 h-[550px]">
           <div className="relative sm:w-[23rem] w-[10rem] mx-auto sm:max-w-5xl">
             `{" "}
             <div className="relative z-10 p-0.5 rounded-2xl bg-conic-gradient">

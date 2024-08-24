@@ -29,11 +29,8 @@ export const Opinion: React.FC = () => {
   }, []);
 
   return (
-    <div className="relative px-4 sm:px-6 lg:px-8">
-      <SectionIntro
-        title="What People are Saying About Us"
-        content="We are the best competition in Jordan and we aim to support university students."
-      />
+    <div id="opinions" className="relative px-4 sm:px-6 lg:px-8  scroll-my-32 ">
+      <SectionIntro title="What People are Saying About Us" content="" />
       <Swiper
         loop={true}
         slidesPerView={1}

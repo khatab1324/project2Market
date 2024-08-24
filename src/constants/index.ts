@@ -13,10 +13,7 @@ export const navLinks = [
     id: "particepents",
     title: "Particepents",
   },
-  {
-    id: "sponsors",
-    title: "Sponsors",
-  },
+
   {
     id: "register",
     title: "Register",
@@ -29,6 +26,11 @@ export const statsOfTheCompetition = [
   { id: "3", title: "prizes", value: "+1000$" },
 ];
 
+export const majorsForThisSession = [
+  { id: "ai", title: "AI/IOT" },
+  { id: "swe", title: "SWE" },
+  { id: "engineers", title: "Engineers" },
+];
 export const aboutIcec = [
   {
     id: "1",
@@ -144,6 +146,22 @@ export const whatTheDoctorSaid = [
   {
     id: "7",
     name: "Dr.7",
+    quote:
+      "we are the best compatition in jordan and we are aim to univarsity student",
+    postion: "Vice Dean",
+    image: winnersInProjectToMarket,
+  },
+  {
+    id: "8",
+    name: "Dr.8",
+    quote:
+      "we are the best compatition in jordan and we are aim to univarsity student",
+    postion: "Vice Dean",
+    image: winnersInProjectToMarket,
+  },
+  {
+    id: "9",
+    name: "Dr.9",
     quote:
       "we are the best compatition in jordan and we are aim to univarsity student",
     postion: "Vice Dean",
