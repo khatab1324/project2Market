@@ -13,7 +13,7 @@ export const AboutP2M = () => {
       {aboutP2M.map((content) => (
         <div
           key={content.id}
-          className="w-[330px] h-[340px] p-5 text-white border-2 border-transparent rounded-lg flex flex-col cursor-pointer transform-gpu ransition-transform duration-500 ease-out hover:scale-105 hover:shadow-lg ss:mr-8 mb-5 backdrop-filter backdrop-blur-lg"
+          className="w-[330px] h-[300px] p-5 text-white border-2 border-transparent rounded-lg flex flex-col cursor-pointer transform-gpu ransition-transform duration-500 ease-out hover:scale-105 hover:shadow-lg ss:mr-8 mb-10 backdrop-filter backdrop-blur-lg"
         >
           <div className="flex-1">
             <div className="flex items-center">
@@ -23,11 +23,11 @@ export const AboutP2M = () => {
               <span className="font-semibold ">{content.title}</span>
             </div>
             <hr className="mt-3" />
-            <p className="text-xl font-semibold my-6">{content.content} </p>
+            <p className="text-xl font-semibold my-2">{content.content} </p>
             {content.id === "3" && (
               <a href="#" className="w-full flex justify-center">
                 {" "}
-                <BsFillFileEarmarkPdfFill size={150} />
+                <BsFillFileEarmarkPdfFill size={135} />
               </a>
             )}
           </div>

@@ -6,15 +6,17 @@ import tempImage from "../assets/WhatsApp Image 2024-07-31 at 4.12.01 PM.jpeg";
 import rocket from "../assets/rocket-svgrepo-com.svg";
 import curve from "../assets/hero/curve.png";
 import heroBackground from "../assets/hero/hero-background.jpg";
+import { Spotlight } from "./background-beams-with-collision";
 export const MovingPages = () => {
   return (
     //   <Vortex>
 
     //   </Vortex>
     <section className="flex md:flex-row flex-col sm:pt-36 pt-28 ">
-      <div className="flex-1 flex flex-col justify-center items-center xl:px-0 sm:px-16 px-6">
-        <div className="h-full flex z-20 flex-col justify-center items-center font-poppins font-semibold ss:text-[100px] text-[42px] text-white ss:leading-[120.8px] leading-[75px]">
+      <div className="flex-1 flex flex-col justify-center items-center xl:px-0 sm:px-16 px-6 ">
+        <div className="h-full flex z-20 flex-col justify-center items-center font-poppins font-semibold ss:text-[100px] text-[42px] text-white ss:leading-[120.8px] leading-[75px] drop-shadow-glowForTitle">
           <span className="text-gradient">Project2Market</span>
+
           <div className="flex">
             <span className="inline-block relative ss:text-[60px]">
               Season 2{" "}
@@ -46,15 +48,6 @@ export const MovingPages = () => {
                   alt="AI"
                 />
               </div>
-            </div>
-            <div className="absolute -z-10 -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
-              <img
-                src={heroBackground}
-                className="w-full"
-                width={1440}
-                height={1800}
-                alt="hero"
-              />
             </div>
           </div>
           <StatsComponent />

@@ -38,6 +38,28 @@ module.exports = {
       "conic-gradient":
         "conic-gradient(from 225deg, #FFC876, #79FFF7, #9F53FF, #FF98E2, #FFC876)",
     },
+    dropShadow: {
+      glowForTitle: [
+        "0 0px 20px rgba(5,150, 255, 0.30)",
+        "0 0px 65px rgba(255, 255,255, 0.3)",
+      ],
+    },
+
+    animation: {
+      spotlight: "spotlight 2s ease .75s 1 forwards",
+    },
+    keyframes: {
+      spotlight: {
+        "0%": {
+          opacity: 0,
+          transform: "translate(-72%, -62%) scale(0.5)",
+        },
+        "100%": {
+          opacity: 1,
+          transform: "translate(-50%,-40%) scale(1)",
+        },
+      },
+    },
   },
   plugins: [],
 };
