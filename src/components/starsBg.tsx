@@ -3,7 +3,7 @@ import { cn } from "../lib/utils";
 export const StarsBg = () => {
   return (
     <svg
-      className={cn("absolute z-[10] h-full w-full")}
+      className={cn("absolute z-[10] h-[1000px] w-full")}
       viewBox="0 10px 1000 2000" // Adjust this viewBox based on the SVG content
       preserveAspectRatio="xMidYMid meet" // Ensure the SVG scales properly
     >
