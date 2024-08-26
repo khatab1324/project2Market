@@ -34,7 +34,7 @@ export const MovingPages = () => {
         </div>
         <div className="flex-grow"></div>{" "}
         {/*broooooo this for the space broooooo */}
-        <div className="mt-4 md:mr-4 mr-0 lg:h-[550px] sm:h-[550px] h-[630px]">
+        <div className="mt-4 md:mr-4 mr-0 lg:h-[550px] sm:h-[630px] h-[630px]">
           <div className="relative sm:w-[23rem] w-[15rem] mx-auto sm:max-w-5xl">
             `{" "}
             <div className="relative z-10 p-0.5 rounded-2xl bg-conic-gradient">

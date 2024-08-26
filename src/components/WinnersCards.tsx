@@ -6,6 +6,7 @@ import { FaArrowCircleLeft, FaArrowCircleRight } from "react-icons/fa";
 import { Navigation } from "swiper/modules";
 import clsx from "clsx";
 import { winnersSessonOne } from "../constants";
+import { StarsBg } from "./starsBg";
 
 SwiperCore.use([Navigation]);
 
@@ -74,7 +75,7 @@ export const WinnersCards: React.FC<{ major: major }> = ({
   }, []);
 
   return (
-    <div className="relative px-2 sm:px-6 lg:px-8">
+    <div className="relative px-2 sm:px-6 lg:px-8 ">
       <Swiper
         slidesPerView={1}
         spaceBetween={20}
@@ -97,7 +98,7 @@ export const WinnersCards: React.FC<{ major: major }> = ({
           {major.data.map((winner) => (
             <SwiperSlide
               key={winner.id}
-              className="px-4 transition-transform duration-700 ease-in-out transform sm:hover:scale-105"
+              className="px-4 z-50 transition-transform duration-700 ease-in-out transform sm:hover:scale-105"
             >
               <div
                 className={clsx(

@@ -44,7 +44,7 @@ export const Opinion: React.FC = () => {
             slidesPerView: 2,
             spaceBetween: 20,
           },
-          1024: {
+          1124: {
             slidesPerView: 3,
             spaceBetween: 30,
           },
