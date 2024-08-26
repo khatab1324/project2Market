@@ -58,17 +58,17 @@ export const StatsComponent: React.FC = () => {
   const animatedValues = useAnimateValues(statsOfTheCompetition);
 
   return (
-    <div className="flex flex-row flex-wrap xs:justify-center justify-start ss:mb-20 mb-16 ss:mt-40 mt-16 lg:justify-around xl:justify-between">
+    <div className="flex flex-row flex-wrap xs:justify-center justify-start ss:mb-16 mb-16 ss:mt-20 mt-16 lg:justify-around xl:justify-between">
       {animatedValues.map((state) => (
         <div
           key={state.id}
           className="flex justify-center items-center sm:mr-10 m-4"
         >
-          <h3 className="font-poppins font-semibold xs:text-[40.89px] text-[30.89px] xs:leading-[60.16px] leading-[43.16px] text-white">
+          <h3 className="font-poppins font-semibold xs:text-[40.89px] text-[35.89px] xs:leading-[60.16px] leading-[43.16px] text-white">
             {statsOfTheCompetition.find((s) => s.id === state.id)?.title}:
           </h3>
           <p
-            className="font-poppins font-normal xs:text-[38.89px] text-[20.89px] xs:leading-[38.89px] leading-[40.16px] text-gradient uppercase ml-4 transition-all duration-500 ease-out"
+            className="font-poppins font-normal xs:text-[38.89px] text-[30.89px] xs:leading-[38.89px] leading-[40.16px] text-gradient uppercase ml-4 transition-all duration-500 ease-out"
             style={{ transitionProperty: "opacity, transform" }}
           >
             {state.value}
