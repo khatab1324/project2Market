@@ -70,10 +70,10 @@ export const Opinion: React.FC = () => {
                   />
 
                   <div className="flex flex-col ml-4">
-                    <h4 className="font-poppins font-semibold text-[16px] sm:text-[20px] leading-tight text-white">
+                    <h3 className="font-poppins font-semibold text-[12px] sm:text-[14px] leading-tight text-white">
                       {doctor.name}
-                    </h4>{" "}
-                    <p className="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite">
+                    </h3>{" "}
+                    <p className="font-poppins font-normal text-[10px] leading-[18px] text-dimWhite">
                       {doctor.postion}
                     </p>
                   </div>

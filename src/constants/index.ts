@@ -18,7 +18,7 @@ import GhaziAlWeshah from "../assets/drImg/GhaziAlWeshah.jpg";
 import JafarAlzubi from "../assets/drImg/JafarAlzubi.jpg";
 import MajdiBeseiso from "../assets/drImg/MajdiBeseiso.jpg";
 import SuliemanBaniAhmad from "../assets/drImg/SuliemanBaniAhmad.jpg";
-
+import albara from "../assets/drImg/albara.png";
 export const navLinks = [
   {
     id: "aboutus",
@@ -116,59 +116,67 @@ export const aboutUsContents = [
 export const whatTheDoctorSaid = [
   {
     id: "1",
+    name: "Dr. Baraa Awajan",
+    quote:
+      "The P2M competition promotes critical and innovative thinking, equipping students with essential skills needed for success in the entrepreneurial landscape.",
+    postion: "Multimedia & Computer Network Computing",
+    image: albara,
+  },
+  {
+    id: "2",
     name: "Dr. Abeer Al Hyari",
     quote:
-      "we are the best compatition in jordan and we are aim to univarsity student",
+      "The P2M competition provided invaluable insights into arbitration, offering my students an exceptional platform to present their projects with confidence.",
     postion: "Computer Engineering",
     image: AbeerAlHyari,
   },
   {
-    id: "2",
-    name: "Prof.Ghazi Al-Weshah",
-    quote:
-      "we are the best compatition in jordan and we are aim to univarsity student",
-    postion: "Marketing",
-    image: GhaziAlWeshah,
-  },
-  {
     id: "3",
-    name: "Dr. Aryaf Aladwan",
+    name: "Prof. Sulieman Bani-Ahmad",
     quote:
-      "we are the best compatition in jordan and we are aim to univarsity student",
-    postion: "CS & AI",
-    image: AryafAladwan,
+      "This competition bridges academic achievements with entrepreneurial ventures, fostering innovation and encouraging the application of theoretical knowledge.",
+    postion: "Computing & information sciences",
+    image: SuliemanBaniAhmad,
   },
   {
     id: "4",
-    name: "Dr. Jafar Alzubi",
+    name: "Prof. Ali Taani",
     quote:
-      "we are the best compatition in jordan and we are aim to univarsity student",
-    postion: "CE & Networks Security",
-    image: JafarAlzubi,
+      "Organizing this competition at Al-Balqa Applied University is a commendable initiative, offering students diverse opportunities to develop vital entrepreneurial skills.",
+    postion: "Astrophysics & Space Science",
+    image: AliAbedAlKareemAyedTaani,
   },
   {
     id: "5",
-    name: "Prof. Sulieman Bani-Ahmad",
+    name: "Dr. Aryaf Aladwan",
     quote:
-      "we are the best compatition in jordan and we are aim to univarsity student",
-    postion: "Computing & information sciences",
-    image: SuliemanBaniAhmad,
+      "This initiative offers students a unique opportunity to apply theoretical knowledge in real-world contexts, making significant contributions to the tech industry.",
+    postion: "Computer Science & Artificial Intelligence",
+    image: AryafAladwan,
   },
   {
     id: "6",
     name: "Dr. Majdi Beseiso",
     quote:
-      "we are the best compatition in jordan and we are aim to univarsity student",
-    postion: "CS",
+      "I’m impressed by how this competition merges academic rigor with entrepreneurial ambition, fostering creativity and preparing students for success in the startup world.",
+    postion: "Information & Communication Technology",
     image: MajdiBeseiso,
   },
   {
     id: "7",
-    name: "Prof. Ali Taani",
+    name: "Prof.Ghazi Al-Weshah",
     quote:
-      "we are the best compatition in jordan and we are aim to univarsity student",
-    postion: "Astrophysics & Space Science",
-    image: AliAbedAlKareemAyedTaani,
+      "It's inspiring to see how this competition fosters entrepreneurial spirit while advancing academic concepts, bridging theory with real-world impact.",
+    postion: "Marketing",
+    image: GhaziAlWeshah,
+  },
+  {
+    id: "8",
+    name: "Dr. Jafar Alzubi",
+    quote:
+      "This initiative gives students a platform to translate theoretical knowledge into real-world applications, driving advancements in the tech industry.",
+    postion: "Computer Engineering & Networks Security",
+    image: JafarAlzubi,
   },
 ];
 export const majors = [
@@ -183,7 +191,7 @@ export const winnersSessonOne = {
     data: [
       {
         id: "1",
-        projectTitle: "smart home",
+        projectTitle: "Solar Tracker Traffic",
         projectDescription:
           "we are the best compatition in jordan and we are aim to univarsity student",
         particepentsNames: [],
@@ -192,7 +200,7 @@ export const winnersSessonOne = {
       },
       {
         id: "2",
-        projectTitle: "tomore bladna",
+        projectTitle: "Smart Home",
         projectDescription:
           "we are the best compatition in jordan and we are aim to univarsity student",
         particepentsNames: [],
@@ -201,7 +209,7 @@ export const winnersSessonOne = {
       },
       {
         id: "3",
-        projectTitle: "startcafy",
+        projectTitle: "Driving simulator using VR",
         projectDescription:
           "we are the best compatition in jordan and we are aim to univarsity student",
         particepentsNames: [],
@@ -215,7 +223,8 @@ export const winnersSessonOne = {
     data: [
       {
         id: "1",
-        projectTitle: "smart home",
+        projectTitle:
+          "An innovative approach for the control of insects in mites",
         projectDescription:
           "we are the best compatition in jordan and we are aim to univarsity student",
         particepentsNames: [],
@@ -224,7 +233,7 @@ export const winnersSessonOne = {
       },
       {
         id: "2",
-        projectTitle: "smart home",
+        projectTitle: "Creating a platform to connect Jordanian factories",
         projectDescription:
           "we are the best compatition in jordan and we are aim to univarsity student",
         particepentsNames: [],
@@ -233,7 +242,8 @@ export const winnersSessonOne = {
       },
       {
         id: "3",
-        projectTitle: "smart home",
+        projectTitle:
+          "The impact of the accounting experience of the board of directors on the dividend distribution policy",
         projectDescription:
           "we are the best compatition in jordan and we are aim to univarsity student",
         particepentsNames: [],
@@ -247,7 +257,7 @@ export const winnersSessonOne = {
     data: [
       {
         id: "1",
-        projectTitle: "smart home",
+        projectTitle: "Tomore Beladna",
         projectDescription:
           "we are the best compatition in jordan and we are aim to univarsity student",
         particepentsNames: [],
@@ -256,7 +266,7 @@ export const winnersSessonOne = {
       },
       {
         id: "2",
-        projectTitle: "smart home",
+        projectTitle: "Compost",
         projectDescription:
           "we are the best compatition in jordan and we are aim to univarsity student",
         particepentsNames: [],
@@ -265,7 +275,7 @@ export const winnersSessonOne = {
       },
       {
         id: "3",
-        projectTitle: "smart home",
+        projectTitle: "ETAHA",
         projectDescription:
           "we are the best compatition in jordan and we are aim to univarsity student",
         particepentsNames: [],

@@ -120,7 +120,7 @@ export const WinnersCards: React.FC<{ major: major }> = ({
                 <div className="flex">
                   <p
                     className={clsx(
-                      "font-poppins font-semibold text-gradient  text-[24px] sm:text-[32px] lg:text-[26px] leading-[1.2] lg:leading-[76.8px] w-full mt-8 lg:mt-4 text-silverGradient"
+                      "font-poppins font-semibold text-gradient  text-[20px] sm:text-[32px] lg:text-[19px] leading-[1.2] lg:leading-[32px] w-full mt-8 lg:mt-4 text-silverGradient"
                     )}
                   >
                     {winner.projectTitle}
