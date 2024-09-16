@@ -76,6 +76,7 @@ export const WinnersCards: React.FC<{ major: major }> = ({
 
   return (
     <div className="relative px-2 sm:px-6 lg:px-8 ">
+      <StarsBg />
       <Swiper
         slidesPerView={1}
         spaceBetween={20}

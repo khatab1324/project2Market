@@ -13,7 +13,7 @@ export const MovingPages = () => {
     //   <Vortex>
 
     //   </Vortex>
-    <section className="flex md:flex-row flex-col sm:pt-36 pt-24 ">
+    <section className="flex md:flex-row flex-col sm:pt-32 pt-24 mb-10">
       <StarsBg />
       <div className="flex-1 flex flex-col justify-center items-center xl:px-0 sm:px-16 px-6 ">
         <div className="h-full flex z-20 flex-col justify-center items-center font-poppins font-semibold md:text-[100px] ss:text-[80px] xs:text-[60px] text-[42px] text-white ss:leading-[120.8px] leading-[75px] drop-shadow-glowForTitle">

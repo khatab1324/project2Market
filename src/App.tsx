@@ -31,14 +31,13 @@ function App() {
         {/* second section */}
         <div className="bg-primary sm:px-16 px-4 flex justify-center items-start">
           <div className="xl:max-w-[1280px] w-full">
-            
             <CenterContents />
           </div>
         </div>
         {/* theird section */}
 
-        <div className="bg-primary flex justify-center items-start">
-          <div className=" w-full">
+        <div className="bg-primary flex justify-center items-start ">
+          <div className=" w-full z-50">
             <Footer />
           </div>
         </div>

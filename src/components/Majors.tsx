@@ -28,8 +28,11 @@ export const Majors = ({ title }: { title: string }) => {
 
           <div className=" flex flex-wrap flex-row p-[2.4rem] ">
             <h1
-              className="xs:text-2xl text-xl flex justify-center animate-colorCycle drop-shadow-2xl shadow-white "
-              style={{ textShadow: "0px 0px 40px rgba(0, 0, 255, 1)" }}
+              className="xs:text-2xl text-xl flex justify-center drop-shadow-xl shadow-white"
+              style={{
+                textShadow:
+                  "0px 0px 60px rgba(0, 0, 255, 1), 0px 0px 60px rgba(0,0, 255, 1)",
+              }}
             >
               {title}
             </h1>

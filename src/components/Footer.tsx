@@ -11,8 +11,8 @@ import bauLogo from "./../assets/bauLogo.png";
 
 export const Footer = () => {
   return (
-    <footer className="bg-gray-950 text-gray-300">
-      <div className="max-w-screen-lg mx-auto px-6 py-8">
+    <footer className="bg-gray-950 text-gray-300 ">
+      <div className="max-w-screen-lg mx-auto px-6 py-8 ">
         <div className="flex flex-col md:flex-row items-center justify-between mb-6">
           <div className="flex items-center space-x-4">
             <a href="https://www.bau.edu.jo/bauar/Units/ICEC/Home.aspx">
