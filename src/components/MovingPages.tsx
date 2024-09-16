@@ -1,18 +1,10 @@
-import { Vortex } from "./animationForTitle";
-import { BackgroundCircles } from "./smallComponent/backGroundCircel";
 import { StatsComponent } from "./stats";
 import tempImage from "../assets/hero/Ibtikari1.png";
-// import {BackgroundCircles} from "./"
 import rocket from "../assets/rocket-svgrepo-com.svg";
 import curve from "../assets/hero/curve.png";
-import heroBackground from "../assets/hero/hero-background.jpg";
-import { Spotlight } from "./background-beams-with-collision";
 import { StarsBg } from "./starsBg";
 export const MovingPages = () => {
   return (
-    //   <Vortex>
-
-    //   </Vortex>
     <section className="flex md:flex-row flex-col sm:pt-32 pt-24 mb-10">
       <StarsBg />
       <div className="flex-1 flex flex-col justify-center items-center xl:px-0 sm:px-16 px-6 ">
@@ -33,27 +25,16 @@ export const MovingPages = () => {
           </div>
         </div>
         <div className="flex-grow"></div>{" "}
-        {/*broooooo this for the space broooooo */}
         <div className="mt-4 md:mr-4 mr-0 lg:h-[550px] sm:h-[630px] h-[630px]">
           <div className="relative sm:w-[23rem] w-[15rem] mx-auto sm:max-w-5xl">
-            `{" "}
-            {/* <div className="relative z-10 p-0.5 rounded-2xl bg-conic-gradient"> */}
             <div className="bg-conic-gradient"></div>
             <div className="h-[0.6rem] bg-n-10 rounded-t-[0.9rem]" />
             <div className=" rounded-b-[0.9rem] overflow-hidden">
-              <img
-                src={tempImage}
-                // className="w-full scale-[1.7] translate-y-[8%] md:scale-[1] md:-translate-y-[40%] lg:-translate-y-[23%]"
-                width={1024}
-                height={490}
-                alt="AI"
-              />
+              <img src={tempImage} width={1024} height={490} alt="AI" />
             </div>
-            {/* </div> */}
           </div>
           <StatsComponent />
           <div className="relative mb-24">
-            {/* <BackgroundCircles parallaxRef={""} /> */}
             <div className="h-[1.4rem] bg-n-10 rounded-t-[0.9rem]" />
           </div>
         </div>

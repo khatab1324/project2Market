@@ -5,7 +5,6 @@ import "swiper/swiper-bundle.css";
 import { FaArrowCircleLeft, FaArrowCircleRight } from "react-icons/fa";
 import { Navigation } from "swiper/modules";
 import clsx from "clsx";
-import { winnersSessonOne } from "../constants";
 import { StarsBg } from "./starsBg";
 
 SwiperCore.use([Navigation]);
@@ -38,9 +37,7 @@ export const WinnersCards: React.FC<{ major: major }> = ({
 }) => {
   const swiperRef = useRef<SwiperType | null>(null);
   const [showNavButtons, setShowNavButtons] = useState(true);
-  const groupSize = 3; // Adjust this depending on how many cards you want to move at once
-
-  // Function to handle navigation per group
+  const groupSize = 3;
   const handleNext = () => {
     if (swiperRef.current) {
       swiperRef.current.slideNext(groupSize);
@@ -53,7 +50,6 @@ export const WinnersCards: React.FC<{ major: major }> = ({
     }
   };
 
-  // Check if all slides are visible
   useEffect(() => {
     const checkSlidesVisibility = () => {
       if (swiperRef.current) {
@@ -76,7 +72,9 @@ export const WinnersCards: React.FC<{ major: major }> = ({
 
   return (
     <div className="relative px-2 sm:px-6 lg:px-8 ">
-      <StarsBg />
+      <div className="hidden lg:block">
+        <StarsBg />
+      </div>
       <Swiper
         slidesPerView={1}
         spaceBetween={20}

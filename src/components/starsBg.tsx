@@ -4,13 +4,11 @@ export const StarsBg = () => {
   return (
     <svg
       className={cn("absolute z-[0] h-[1000px] w-full")}
-      viewBox="0 10px 1000 2000" // Adjust this viewBox based on the SVG content
-      preserveAspectRatio="xMidYMid meet" // Ensure the SVG scales properly
+      viewBox="0 10px 1000 2000"
+      preserveAspectRatio="xMidYMid meet"
     >
       <g className="">
         <circle cx="100" cy="400" r="4" fill="white" />
-        {/* <circle cx="10" cy="70" r="2" fill="white" /> */}
-        {/* <circle cx="120" cy="90" r="2" fill="white" /> */}
         <circle cx="10" cy="670" r="3" fill="white" />
         <circle cx="350" cy="900" r="4" fill="white" />
         <circle cx="500" cy="600" r="3" fill="white" />

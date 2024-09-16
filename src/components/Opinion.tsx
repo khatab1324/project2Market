@@ -14,7 +14,6 @@ import { SectionIntro } from "./SectionIntro";
 SwiperCore.use([Navigation]);
 
 export const Opinion: React.FC = () => {
-  // Reference for the swiper instance
   const swiperRef = useRef<SwiperType | null>(null);
 
   useEffect(() => {
@@ -22,9 +21,8 @@ export const Opinion: React.FC = () => {
       if (swiperRef.current) {
         swiperRef.current.slideNext();
       }
-    }, 5000); // Slide every 5 seconds
+    }, 5000); 
 
-    // Cleanup the interval on component unmount
     return () => clearInterval(timer);
   }, []);
 

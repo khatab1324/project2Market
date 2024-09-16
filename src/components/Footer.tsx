@@ -26,8 +26,6 @@ export const Footer = () => {
               Project 2 Market
             </h3>
           </div>
-
-          {/* Developers Section */}
           <div className="mt-10 md:mt-0">
             <h4 className="text-lg uppercase font-semibold text-indigo-500 mb-4">
               Developers

@@ -1,10 +1,5 @@
 import { aboutP2M } from "../constants";
 import { SectionIntro } from "./SectionIntro";
-import pdfLogo from "../assets/pdf-svgrepo-com.svg";
-import { FaFilePdf } from "react-icons/fa6";
-
-import { FaRegFilePdf } from "react-icons/fa6";
-import { PiFilePdfDuotone } from "react-icons/pi";
 import { BsFillFileEarmarkPdfFill } from "react-icons/bs";
 export const AboutP2M = () => {
   return (
@@ -25,7 +20,10 @@ export const AboutP2M = () => {
             <hr className="mt-3" />
             <p className="text-xl font-semibold my-2">{content.content} </p>
             {content.id === "3" && (
-              <a href="#" className="w-full flex justify-center">
+              <a
+                href="https://drive.google.com/drive/folders/1wZO_zpk_Wiz8fkZkZLdfNWGt2LhvHcWz?usp=sharing"
+                className="w-full flex justify-center"
+              >
                 {" "}
                 <BsFillFileEarmarkPdfFill size={135} />
               </a>

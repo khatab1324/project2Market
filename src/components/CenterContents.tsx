@@ -3,7 +3,6 @@ import { Spotlight } from "./background-beams-with-collision";
 import { Opinion } from "./Opinion";
 import { Particepents } from "./Particepents";
 import { Regeister } from "./Regeister";
-import { Sponsors } from "./Sponsors";
 
 export const CenterContents = () => {
   return (
@@ -11,9 +10,7 @@ export const CenterContents = () => {
       <AboutUs />
       <Spotlight fill="#7044fa" />
       <Opinion />
-
       <Particepents />
-      {/* <Sponsors /> */}
       <Regeister />
     </section>
   );

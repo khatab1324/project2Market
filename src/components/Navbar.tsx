@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { navLinks } from "../constants";
 import bauLogo from "./../assets/bauLogo.png";
-// import youthInnovationClub from "./../assets/youthInnovationClub.png";
 import youthInnovationClub from "./../assets/P2M_P2M Logo.png";
 import { HiMenuAlt2 } from "react-icons/hi";
 import { AiOutlineCloseCircle } from "react-icons/ai";
@@ -21,11 +20,6 @@ export const Navbar = () => {
           className="w-[63px] h-[63px] cursor-pointer"
         />
       </a>
-      {/* <img
-        src={youthInnovationClub}
-        alt=""
-        className="w-[124px] h-[110px] ml-8"
-      /> */}
       <img
         src={youthInnovationClub}
         alt=""

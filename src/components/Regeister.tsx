@@ -31,7 +31,6 @@ export const Regeister = () => {
 export function ButtonDemo() {
   return (
     <div className="relative group">
-      <div className=" bg-gradient-to-r from-pink-500 via-white via-blue-500 to-cyan-500 rounded-lg blur opacity-0 group-hover:opacity-100 transition duration-300"></div>
       <a href="https://docs.google.com/forms/d/e/1FAIpQLSehYQtTwHajjttJ0PHzD8Qv_OP3PQD-l461VgLpU375pL-Y_w/viewform?fbclid=IwY2xjawFSwN9leHRuA2FlbQIxMQABHagg2RaqSQqvaRADChNdxoPxlDClDYU0fsPL8-viNqBCKQ9quNVRQAnZGw_aem_1WFICXHX1Us8WbXMBkfuHQ">
         <button className=" border-2 relative px-8 py-5 bg-black rounded-lg leading-none flex items-center overflow-hidden transition-colors duration-300">
           <span className="text-gray-100 relative z-10 text-md sm:text-xl ">

@@ -1,4 +1,4 @@
-import { aboutUsContents, majorsForThisSession } from "../constants";
+import { majorsForThisSession } from "../constants";
 import { AboutIcec } from "./AboutIcec";
 import { AboutP2M } from "./AboutP2M";
 import { Majors } from "./Majors";

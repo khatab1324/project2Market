@@ -7,11 +7,9 @@ export const Particepents = () => {
       <div className="w-full flex justify-center">
         <SectionIntro title="Winners in season 1" content="" />
       </div>
-      {/* <div className="flex w-full justify-between"> */}
       {majors.map((major) => {
         return <MajorCard key={major.id} id={major.id} title={major.title} />;
       })}
-      {/* </div> */}
     </div>
   );
 };
