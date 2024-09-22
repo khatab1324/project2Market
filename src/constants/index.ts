@@ -1,4 +1,3 @@
-import winnersInProjectToMarket from "../assets/WhatsApp Image 2024-08-11 at 2.13.08 PM.jpeg";
 import topOneItAi from "../assets/winnersImg/topOneItAi.jpg";
 import topTowItAi from "../assets/winnersImg/topTowItAi.jpg";
 import topThreeItAi from "../assets/winnersImg/topThreeItAi.jpg";
@@ -40,9 +39,9 @@ export const navLinks = [
 ];
 
 export const statsOfTheCompetition = [
-  { id: "1", title: "Participants", value: "+70" },
-  { id: "2", title: "sponsors", value: "+30" },
-  { id: "3", title: "prizes", value: "+1800" },
+  { id: "1", title: "Participants", value: "43" },
+  { id: "2", title: "Sponsors", value: "10" },
+  { id: "3", title: "Prizes", value: "900" },
 ];
 
 export const majorsForThisSession = [
@@ -70,49 +69,24 @@ export const aboutP2M = [
   {
     id: "1",
     contentNumber: "1",
-    title: "How we are",
+    title: "How We Are",
     content:
-      "P2M is a competition and exhibition showcasing innovative projects in engineering, software development, AI, and IoT.",
+      "P2M is a competition and exhibition showcasing graduation and innovative engineering, software development, AI, and IoT projects.",
   },
   {
     id: "2",
     contentNumber: "2",
-    title: "What we Aming For ",
+    title: "What We Aming For ",
     content:
       "It aims to turn these projects into start-up companies through entrepreneurship training and evaluation by a panel of judges",
   },
   {
     id: "3",
     contentNumber: "3",
-    title: "How we Rule",
+    title: "How We Rule",
     content: "",
   },
 ];
-
-export const aboutUsContents = [
-  {
-    id: "1",
-    contentNumber: "1",
-    title: "how we are",
-    content:
-      "we are the best compatition in jordan and we are aim to univarsity student",
-  },
-  {
-    id: "2",
-    contentNumber: "2",
-    title: "what we do",
-    content:
-      "we are the best compatition in jordan and we are aim to univarsity student",
-  },
-  {
-    id: "3",
-    contentNumber: "3",
-    title: "how we rule",
-    content:
-      "we are the best compatition in jordan and we are aim to univarsity student",
-  },
-];
-
 export const whatTheDoctorSaid = [
   {
     id: "1",
@@ -191,7 +165,7 @@ export const winnersSessonOne = {
     data: [
       {
         id: "1",
-        projectTitle: "Solar Tracker Traffic",
+        projectTitle: "Smart Home",
         projectDescription:
           "we are the best compatition in jordan and we are aim to univarsity student",
         particepentsNames: [],
@@ -200,7 +174,7 @@ export const winnersSessonOne = {
       },
       {
         id: "2",
-        projectTitle: "Smart Home",
+        projectTitle: "Solar Tracker Traffic",
         projectDescription:
           "we are the best compatition in jordan and we are aim to univarsity student",
         particepentsNames: [],

@@ -71,7 +71,7 @@ export const StatsComponent: React.FC = () => {
             className="font-poppins font-normal xs:text-[38.89px] text-[30.89px] xs:leading-[38.89px] leading-[40.16px] text-gradient uppercase ml-4 transition-all duration-500 ease-out"
             style={{ transitionProperty: "opacity, transform" }}
           >
-            {state.value}
+            +{state.value}
             {state.id === "3" && " jd"}
           </p>
         </div>

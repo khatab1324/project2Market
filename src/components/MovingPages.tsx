@@ -25,11 +25,11 @@ export const MovingPages = () => {
           </div>
         </div>
         <div className="flex-grow"></div>{" "}
-        <div className="mt-4 md:mr-4 mr-0 lg:h-[550px] sm:h-[630px] h-[630px]">
+        <div className=" md:mr-4 mr-0 lg:h-[550px] sm:h-[630px] h-[630px]">
           <div className="relative sm:w-[23rem] w-[15rem] mx-auto sm:max-w-5xl">
             <div className="bg-conic-gradient"></div>
-            <div className="h-[0.6rem] bg-n-10 rounded-t-[0.9rem]" />
-            <div className=" rounded-b-[0.9rem] overflow-hidden">
+
+            <div className="  overflow-hidden">
               <img src={tempImage} width={1024} height={490} alt="AI" />
             </div>
           </div>

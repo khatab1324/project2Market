@@ -3,7 +3,7 @@ import { StarsBg } from "./starsBg";
 import { WinnersCards } from "./WinnersCards";
 
 export const MajorCard = ({ id, title }: { id: string; title: string }) => {
-  console.log(id);
+  
 
   return (
     <div>

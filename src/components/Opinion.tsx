@@ -21,14 +21,14 @@ export const Opinion: React.FC = () => {
       if (swiperRef.current) {
         swiperRef.current.slideNext();
       }
-    }, 5000); 
+    }, 5000);
 
     return () => clearInterval(timer);
   }, []);
 
   return (
     <div id="opinions" className="relative px-4 sm:px-6 lg:px-8  scroll-my-32 ">
-      <SectionIntro title="What People are Saying About Us" content="" />
+      <SectionIntro title="What People Are Saying About Us" content="" />
       <Swiper
         loop={true}
         slidesPerView={1}
