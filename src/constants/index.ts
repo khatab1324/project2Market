@@ -69,7 +69,7 @@ export const aboutP2M = [
   {
     id: "1",
     contentNumber: "1",
-    title: "How We Are",
+    title: "What Is It",
     content:
       "P2M is a competition and exhibition showcasing graduation and innovative engineering, software development, AI, and IoT projects.",
   },
@@ -165,7 +165,7 @@ export const winnersSessonOne = {
     data: [
       {
         id: "1",
-        projectTitle: "Smart Home",
+        projectTitle: "Solar Tracker Traffic",
         projectDescription:
           "we are the best compatition in jordan and we are aim to univarsity student",
         particepentsNames: [],
@@ -174,12 +174,12 @@ export const winnersSessonOne = {
       },
       {
         id: "2",
-        projectTitle: "Solar Tracker Traffic",
+        projectTitle: "Smart Home",
         projectDescription:
           "we are the best compatition in jordan and we are aim to univarsity student",
         particepentsNames: [],
         place: 2,
-        image: topTowItAi,
+        image: topThreeItAi,
       },
       {
         id: "3",
@@ -188,7 +188,7 @@ export const winnersSessonOne = {
           "we are the best compatition in jordan and we are aim to univarsity student",
         particepentsNames: [],
         place: 3,
-        image: topThreeItAi,
+        image: topTowItAi,
       },
     ],
   },
