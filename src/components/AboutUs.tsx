@@ -12,7 +12,7 @@ export const AboutUs = () => {
     >
       <AboutIcec />
       <AboutP2M />
-      <SectionIntro title="How People We Are Aiming For" content="" />
+      <SectionIntro title="Who People We Are Aiming For" content="" />
       <div className="w-full flex justify-around flex-wrap ">
         {majorsForThisSession.map((majore) => {
           return <Majors key={majore.id} title={majore.title} />;
