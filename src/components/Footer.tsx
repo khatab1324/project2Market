@@ -99,7 +99,7 @@ export const Footer = () => {
               <FaFacebookF size={22} />
             </a>
             <a
-              href="https://www.instagram.com/youth_innovation_committee?igsh=MWU5b3FvdHlkczZ5MA=="
+              href="https://www.instagram.com/youth_innovation_club/profilecard/?igsh=MWU5b3FvdHlkczZ5MA=="
               aria-label="Instagram"
               className="text-gray-400 hover:text-indigo-500 transition-colors"
             >
