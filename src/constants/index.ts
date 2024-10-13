@@ -39,9 +39,9 @@ export const navLinks = [
 ];
 
 export const statsOfTheCompetition = [
-  { id: "1", title: "Participants", value: "+70" },
-  { id: "2", title: "sponsors", value: "+30" },
-  { id: "3", title: "prizes", value: "+1800" },
+  { id: "1", title: "Participants", value: "43" },
+  { id: "2", title: "Sponsors", value: "10" },
+  { id: "3", title: "Prizes", value: "900" },
 ];
 
 export const majorsForThisSession = [
